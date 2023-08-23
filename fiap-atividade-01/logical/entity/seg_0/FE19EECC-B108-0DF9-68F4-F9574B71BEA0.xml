@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FE19EECC-B108-0DF9-68F4-F9574B71BEA0" name="Funcionario_Cargo">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:32:36 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_cargo" id="582A0139-D02C-9186-F860-EFDBD41C23F3">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:32:44 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="19CF5508-B18A-D277-1FD0-74598CC2637B">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:33:01 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_criacao" id="EF767D13-BE97-EC9B-FC1A-B639BF280464">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:33:11 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_alteracao" id="655A16D3-99CF-A44C-FA76-FFCCAA577B0D">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:33:15 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9343AF47-E28B-01D5-3174-FAFC6CFC3E8A" name="Funcionario_Cargo PK">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:32:55 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>582A0139-D02C-9186-F860-EFDBD41C23F3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

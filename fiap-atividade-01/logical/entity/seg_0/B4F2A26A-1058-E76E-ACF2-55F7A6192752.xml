@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B4F2A26A-1058-E76E-ACF2-55F7A6192752" name="Video_Visualizacao">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:22:45 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_visualizacao" id="0E446375-615F-BA1F-2123-781BBE4943D6">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:22:58 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datahora_inicio" id="1120CE5E-C381-D6D4-3B70-CDE618CD5367">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:23:07 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datahora_termino" id="1BCC3299-AAD8-0D47-B338-F625B7450612">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:23:16 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_video" id="9F32BA79-819D-151A-5DAB-99ECC7725897">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:24:09 UTC</createdTime>
+<generatorID>A45F563B-DF76-A265-717F-94681C2E27D1</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<referedAttribute>AC9A3B20-46BB-4A58-48DB-EFB7282A51A4</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_sessao" id="ECF8694C-8EDC-50DF-B36A-86B0F2E57E5F">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:25:44 UTC</createdTime>
+<generatorID>D71D336B-9CBB-76AE-D9D1-D693A023CA51</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<referedAttribute>EA3008EC-21DC-887C-8A24-9EE8E4F9BDCB</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C82EE0A5-E7F4-C8DC-0D41-30CA0A4435CB" name="Video_Visualizacao PK">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:23:06 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0E446375-615F-BA1F-2123-781BBE4943D6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

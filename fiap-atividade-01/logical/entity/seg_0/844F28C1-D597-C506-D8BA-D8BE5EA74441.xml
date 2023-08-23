@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="844F28C1-D597-C506-D8BA-D8BE5EA74441" name="Produto_Categoria">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:14:45 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_produto_categoria" id="85F28E82-B532-3EDC-831F-7EBE77A8B8BC">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:14:55 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_produto_categoria_pai" id="9A51973B-9D1D-1CC7-01A7-CEEBAE3E947C">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:19:06 UTC</createdTime>
+<generatorID>96C9A066-D1F6-918D-4D72-D16ADC768CE8</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>85F28E82-B532-3EDC-831F-7EBE77A8B8BC</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="EA5E2771-9577-5910-5BFF-EA1BBAC655A2">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:14:56 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nivel" id="881F889E-86A9-6260-072C-49676ED7C945">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:14:56 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_inicio" id="EBD2D453-C3EC-1C9F-4325-F1727D9751F3">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:14:56 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_termino" id="C3EB5C40-E1FC-E535-1CFB-DCD1E18A5042">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:14:56 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_criacao" id="5C8487E2-F702-5966-CF2F-C8562A8E4CE0">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:14:56 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_alteracao" id="B92CC126-7DDC-6636-1990-9E0599CCEDFD">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:15:42 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5234FA16-B842-EF06-873C-E71D2AF022DF" name="Produto_Categoria PK">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:15:04 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>85F28E82-B532-3EDC-831F-7EBE77A8B8BC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
