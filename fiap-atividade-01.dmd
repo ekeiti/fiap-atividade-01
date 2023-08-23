@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="fiap-atividade-01" id="62F65BB9-A5BE-B157-3AE2-63E671ABD709" version="3.5">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:05:18 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>62F65BB9-A5BE-B157-3AE2-63E671ABD709</designId>
+</OSDM_Design>

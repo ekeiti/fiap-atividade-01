@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="7F381997-89AC-A2C4-F9DF-8D454FF07C1D">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:05:18 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>
