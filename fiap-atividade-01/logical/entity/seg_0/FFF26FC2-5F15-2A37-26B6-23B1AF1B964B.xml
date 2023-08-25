@@ -62,7 +62,6 @@
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -173,6 +172,18 @@
 <newElementsIDs>7D0FC40F-6850-AB48-D428-2479F722E065</newElementsIDs>
 <usedAttributes>
 <attributeRef>7D0FC40F-6850-AB48-D428-2479F722E065</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="349C33C4-73AB-15AD-B91E-3A81C9D9FC2E" name="UNQ_produto_descricao">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-24 23:24:14 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<newElementsIDs>E07ACF19-DBEF-8BFD-43F4-6448FDA3356E</newElementsIDs>
+<usedAttributes>
+<attributeRef>E07ACF19-DBEF-8BFD-43F4-6448FDA3356E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

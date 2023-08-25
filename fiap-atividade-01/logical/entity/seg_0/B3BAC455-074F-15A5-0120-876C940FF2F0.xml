@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F37239C4-E166-B367-DBDF-B96A9098A133" name="Chamado_Tipo">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B3BAC455-074F-15A5-0120-876C940FF2F0" name="Bairro">
 <createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:35:02 UTC</createdTime>
+<createdTime>2023-08-24 02:48:22 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="codigo_tipo_chamado" id="6C05BAD9-B58F-2D2D-BEFC-CE84F42FC5D2">
+<Attribute name="codigo_bairro" id="61D41720-AA05-1936-D418-06D764BF6C7A">
 <createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:35:08 UTC</createdTime>
+<createdTime>2023-08-24 02:48:28 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
@@ -25,19 +25,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nome" id="A5298E3E-5193-31EF-2FD4-46F5C30DFA69">
+<Attribute name="nome" id="14E68F29-0430-52CF-CED6-703E4593F524">
 <createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:35:16 UTC</createdTime>
-<ownerDesignName>fiap-atividade-01</ownerDesignName>
-<engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="data_criacao" id="0934383D-4399-3849-13C4-C22EC23798E8">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:35:16 UTC</createdTime>
+<createdTime>2023-08-24 02:48:33 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
@@ -46,28 +36,30 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="data_alteracao" id="4738762A-44E5-2E9A-6DA6-723F5C595EBC">
+<Attribute name="codigo_cidade" id="FF7A0B68-FBDF-DAF9-A8C5-C99DC2B92759">
 <createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:35:28 UTC</createdTime>
+<createdTime>2023-08-24 02:48:43 UTC</createdTime>
+<generatorID>F8ED72F3-3947-A81D-A599-925D6AED7820</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
+<referedAttribute>2579E9BC-9EFE-ED11-6670-BA0B55F4EFF2</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="3761B784-248F-2761-99CA-B426C05CC679" name="Chamado_Tipo PK">
+<identifier id="FB4A3D2B-4A35-5060-CE1B-09EA46EE1AE4" name="Bairro PK">
 <createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:35:15 UTC</createdTime>
+<createdTime>2023-08-24 02:48:37 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>6C05BAD9-B58F-2D2D-BEFC-CE84F42FC5D2</attributeRef>
+<attributeRef>61D41720-AA05-1936-D418-06D764BF6C7A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

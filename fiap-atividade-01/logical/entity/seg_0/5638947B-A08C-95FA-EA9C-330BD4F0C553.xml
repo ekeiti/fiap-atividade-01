@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="24BD7F3C-FF3D-7EA1-7DB7-0E2A7C747684" name="Cliente">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5638947B-A08C-95FA-EA9C-330BD4F0C553" name="Cidade">
 <createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:08:57 UTC</createdTime>
+<createdTime>2023-08-24 02:44:33 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="codigo_cliente" id="04030CE4-610F-35FB-FF7D-D52899F5A6DB">
+<Attribute name="codigo_cidade" id="2579E9BC-9EFE-ED11-6670-BA0B55F4EFF2">
 <createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:09:04 UTC</createdTime>
+<createdTime>2023-08-24 02:45:01 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
@@ -25,29 +25,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nome" id="B8E17E16-C7A3-714A-07C3-9310417FDF33">
+<Attribute name="nome" id="8A3C6E8C-DD78-5C3A-49E5-09A179D36C29">
 <createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:09:12 UTC</createdTime>
-<ownerDesignName>fiap-atividade-01</ownerDesignName>
-<engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="data_criacao" id="68D48955-C30A-D6DB-55A7-05A507FA1CF2">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:09:12 UTC</createdTime>
-<ownerDesignName>fiap-atividade-01</ownerDesignName>
-<engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="data_alteracao" id="C400B137-3E1E-C352-E2C3-B3699CE5CF2E">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:09:12 UTC</createdTime>
+<createdTime>2023-08-24 02:45:07 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
@@ -57,16 +37,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="6D7D452C-5F95-6A0A-22B9-0C98A646E2BB" name="Cliente PK">
+<identifier id="9B8C19D8-2F45-FCCC-692B-4300D7BECCF2" name="Cidade PK">
 <createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:09:08 UTC</createdTime>
+<createdTime>2023-08-24 02:45:06 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>04030CE4-610F-35FB-FF7D-D52899F5A6DB</attributeRef>
+<attributeRef>2579E9BC-9EFE-ED11-6670-BA0B55F4EFF2</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

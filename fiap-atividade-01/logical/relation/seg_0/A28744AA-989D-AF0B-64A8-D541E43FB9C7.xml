@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_21" directorySegmentName="seg_0" id="A28744AA-989D-AF0B-64A8-D541E43FB9C7">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-24 02:37:17 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<sourcePk>6D7D452C-5F95-6A0A-22B9-0C98A646E2BB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>24BD7F3C-FF3D-7EA1-7DB7-0E2A7C747684</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>CD6AF8B0-9F24-CBF2-15A1-13E776F58AE6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

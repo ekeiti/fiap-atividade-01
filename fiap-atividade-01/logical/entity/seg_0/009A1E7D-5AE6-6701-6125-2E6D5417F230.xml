@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="24BD7F3C-FF3D-7EA1-7DB7-0E2A7C747684" name="Cliente">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="009A1E7D-5AE6-6701-6125-2E6D5417F230" name="Cliente_PF">
 <createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:08:57 UTC</createdTime>
+<createdTime>2023-08-24 02:32:57 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
@@ -15,9 +15,21 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="codigo_cliente" id="04030CE4-610F-35FB-FF7D-D52899F5A6DB">
+<Attribute name="codigo_cliente" id="2C7B766C-F782-B8C3-3402-A553855D63D8">
 <createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:09:04 UTC</createdTime>
+<createdTime>2023-08-24 02:36:09 UTC</createdTime>
+<generatorID>5AB3A231-09F0-5151-F7A9-1B2C5AE5C2A8</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<referedAttribute>04030CE4-610F-35FB-FF7D-D52899F5A6DB</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="1ECC53B7-38A1-F91F-42AF-8A1022D8CD7F">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-24 02:33:08 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
@@ -25,29 +37,31 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nome" id="B8E17E16-C7A3-714A-07C3-9310417FDF33">
+<Attribute name="sexo" id="88A030D2-13A5-CF56-FB25-9F1BC6141EAC">
 <createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:09:12 UTC</createdTime>
+<createdTime>2023-08-24 02:33:19 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="data_criacao" id="68D48955-C30A-D6DB-55A7-05A507FA1CF2">
+<Attribute name="genero" id="CC396B76-2931-BD21-8305-0FD6ADAD8C22">
 <createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:09:12 UTC</createdTime>
+<createdTime>2023-08-24 02:33:23 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="data_alteracao" id="C400B137-3E1E-C352-E2C3-B3699CE5CF2E">
+<Attribute name="data_nascimento" id="94072CF1-83A3-9DE4-BB97-786D20732FA7">
 <createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:09:12 UTC</createdTime>
+<createdTime>2023-08-24 02:38:03 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
@@ -57,16 +71,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="6D7D452C-5F95-6A0A-22B9-0C98A646E2BB" name="Cliente PK">
+<identifier id="9ECBAAC1-EE95-9A8C-E641-DAF3B81FC9B8" name="Cliente_PF PK">
 <createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:09:08 UTC</createdTime>
+<createdTime>2023-08-24 02:37:52 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>04030CE4-610F-35FB-FF7D-D52899F5A6DB</attributeRef>
+<attributeRef>2C7B766C-F782-B8C3-3402-A553855D63D8</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

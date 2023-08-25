@@ -25,13 +25,15 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="valor_total" id="1DC4AFD7-250E-9D6F-9A19-E030065438F8">
+<Attribute name="codigo_cliente" id="72E62334-3BBB-027F-3304-8FB1CA79C378">
 <createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:12:40 UTC</createdTime>
+<createdTime>2023-08-23 23:20:06 UTC</createdTime>
+<generatorID>74BE72CC-AF36-032A-785D-1597EE436124</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
+<referedAttribute>04030CE4-610F-35FB-FF7D-D52899F5A6DB</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -52,18 +54,6 @@
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="codigo_cliente" id="72E62334-3BBB-027F-3304-8FB1CA79C378">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:20:06 UTC</createdTime>
-<generatorID>74BE72CC-AF36-032A-785D-1597EE436124</generatorID>
-<ownerDesignName>fiap-atividade-01</ownerDesignName>
-<engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
-</engineerTo>
-<referedAttribute>04030CE4-610F-35FB-FF7D-D52899F5A6DB</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>

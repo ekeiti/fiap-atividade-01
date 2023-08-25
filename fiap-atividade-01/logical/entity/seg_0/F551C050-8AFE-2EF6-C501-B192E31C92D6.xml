@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D01A408B-AAE6-2477-ECEE-BE37F848D38E" name="Pedido_Item">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F551C050-8AFE-2EF6-C501-B192E31C92D6" name="Cliente_Endereco">
 <createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:13:26 UTC</createdTime>
+<createdTime>2023-08-24 02:50:02 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
@@ -15,9 +15,33 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="codigo_pedido_item" id="B8964EB9-315B-383C-0126-8B08471BB5FF">
+<Attribute name="codigo_cliente" id="61CE43CC-4E8C-489E-504E-00CD0AD8EDF1">
 <createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:13:34 UTC</createdTime>
+<createdTime>2023-08-24 02:50:33 UTC</createdTime>
+<generatorID>4CFFC4BC-CA7B-9165-6DA5-6DC739136480</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<referedAttribute>04030CE4-610F-35FB-FF7D-D52899F5A6DB</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_endereco" id="34716138-B888-4254-8284-5A76EE30FFFF">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-24 02:50:49 UTC</createdTime>
+<generatorID>E189E325-DEDA-3FB1-CDB0-9A364C2676CE</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<referedAttribute>3AA027B1-9AC1-FF3B-04EC-2D438B4ED723</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="C026FD90-7F77-E880-2B3D-6AFF3B366A4E">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-24 03:00:23 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
@@ -25,9 +49,20 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="quantidade_item" id="CF2C195F-3BE1-15DC-C2C5-7976D42DB3DB">
+<Attribute name="complemento" id="9474D2C0-EF42-E6EA-7B59-FB7F532448EA">
 <createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:13:35 UTC</createdTime>
+<createdTime>2023-08-24 02:51:10 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="principal" id="6C6D89B0-25EE-77AA-B4DD-92F0524C3902">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-24 02:51:19 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
@@ -35,9 +70,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="valor_unitario" id="6A78D5A9-7745-7E35-91AD-8EB4B8F13A12">
+<Attribute name="data_criacao" id="ED5EDD45-1048-AD3C-861D-B7EA1F8CB6C4">
 <createdBy>ericm</createdBy>
-<createdTime>2023-08-24 02:27:45 UTC</createdTime>
+<createdTime>2023-08-24 03:00:43 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
@@ -45,73 +80,15 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="valor_total_item" id="5A35E905-2B07-3E2F-5CC5-DC9EC080F63A">
+<Attribute name="data_alteracao" id="8C4BF539-A3B9-4FFF-2DE7-DE69B17C1D84">
 <createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:13:35 UTC</createdTime>
+<createdTime>2023-08-24 03:00:54 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="data_criacao" id="A96D5008-8B2D-087F-16EC-EE05BDEF4907">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:13:35 UTC</createdTime>
-<ownerDesignName>fiap-atividade-01</ownerDesignName>
-<engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="data_alteracao" id="CCD69F64-7B91-F155-928E-DB0B06EFE882">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:13:35 UTC</createdTime>
-<ownerDesignName>fiap-atividade-01</ownerDesignName>
-<engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="codigo_produto" id="11D44D34-8787-CFA4-6A07-21E3D87F5C9E">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:17:17 UTC</createdTime>
-<generatorID>89B899EA-AD4B-B28F-DA40-90D3C507FD62</generatorID>
-<ownerDesignName>fiap-atividade-01</ownerDesignName>
-<engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
-</engineerTo>
-<referedAttribute>FB92239F-9D76-1717-3BC5-00DF2C585323</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="codigo_pedido" id="664D9BE4-EFC6-E033-16F0-93B9FE3E66F9">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:26:09 UTC</createdTime>
-<generatorID>854F4F49-1E26-6F52-B90E-E696A9EEFD99</generatorID>
-<ownerDesignName>fiap-atividade-01</ownerDesignName>
-<engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
-</engineerTo>
-<referedAttribute>C5C896FD-D92C-59AC-CA2E-7DF56DC72207</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="10475E77-17F1-D456-0077-80A1CA675E00" name="Pedido_Item PK">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:13:45 UTC</createdTime>
-<ownerDesignName>fiap-atividade-01</ownerDesignName>
-<engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>B8964EB9-315B-383C-0126-8B08471BB5FF</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>

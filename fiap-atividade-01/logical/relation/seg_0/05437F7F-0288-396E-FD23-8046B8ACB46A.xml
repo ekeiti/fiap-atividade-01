@@ -1,19 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="item_chamado" directorySegmentName="seg_0" id="A53910D6-0DE3-F90F-FB5B-734CBE16B914">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_25" directorySegmentName="seg_0" id="05437F7F-0288-396E-FD23-8046B8ACB46A">
 <createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:34:37 UTC</createdTime>
+<createdTime>2023-08-24 02:48:48 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
-<sourcePk>10475E77-17F1-D456-0077-80A1CA675E00</sourcePk>
+<sourcePk>FB4A3D2B-4A35-5060-CE1B-09EA46EE1AE4</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>D01A408B-AAE6-2477-ECEE-BE37F848D38E</sourceEntity>
+<sourceEntity>B3BAC455-074F-15A5-0120-876C940FF2F0</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>2649D633-D3FB-1E63-F3D7-E9CD91CA875A</targetEntity>
+<targetEntity>BB1B3192-B8ED-DDB1-9449-3704C9EC5250</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

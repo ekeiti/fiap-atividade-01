@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="24BD7F3C-FF3D-7EA1-7DB7-0E2A7C747684" name="Cliente">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB1B3192-B8ED-DDB1-9449-3704C9EC5250" name="Endereco">
 <createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:08:57 UTC</createdTime>
+<createdTime>2023-08-24 02:42:53 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="codigo_cliente" id="04030CE4-610F-35FB-FF7D-D52899F5A6DB">
+<Attribute name="codigo_endereco" id="3AA027B1-9AC1-FF3B-04EC-2D438B4ED723">
 <createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:09:04 UTC</createdTime>
+<createdTime>2023-08-24 02:43:08 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
@@ -25,9 +25,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nome" id="B8E17E16-C7A3-714A-07C3-9310417FDF33">
+<Attribute name="logradouro" id="E099CA9B-8F34-C46B-36CD-0435BD1AD8DD">
 <createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:09:12 UTC</createdTime>
+<createdTime>2023-08-24 02:43:28 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
@@ -35,38 +35,41 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="data_criacao" id="68D48955-C30A-D6DB-55A7-05A507FA1CF2">
+<Attribute name="cep" id="05ECDECF-04CF-7757-FE93-38221D8ED923">
 <createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:09:12 UTC</createdTime>
+<createdTime>2023-08-24 02:45:22 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="data_alteracao" id="C400B137-3E1E-C352-E2C3-B3699CE5CF2E">
+<Attribute name="codigo_bairro" id="C91EE213-551B-5F17-D4AC-5EA1CE4C6455">
 <createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:09:12 UTC</createdTime>
+<createdTime>2023-08-24 02:48:48 UTC</createdTime>
+<generatorID>05437F7F-0288-396E-FD23-8046B8ACB46A</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
+<referedAttribute>61D41720-AA05-1936-D418-06D764BF6C7A</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="6D7D452C-5F95-6A0A-22B9-0C98A646E2BB" name="Cliente PK">
+<identifier id="B573D405-C471-9AD0-C2D3-C6541846C51D" name="Endereco PK">
 <createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:09:08 UTC</createdTime>
+<createdTime>2023-08-24 02:43:26 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>04030CE4-610F-35FB-FF7D-D52899F5A6DB</attributeRef>
+<attributeRef>3AA027B1-9AC1-FF3B-04EC-2D438B4ED723</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

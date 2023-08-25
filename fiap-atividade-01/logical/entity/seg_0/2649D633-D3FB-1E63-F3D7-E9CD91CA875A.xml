@@ -46,6 +46,76 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="datahora_abertura" id="06F717B9-4279-7849-7847-730368073E1B">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-24 23:55:15 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datahora_atendimento" id="A943BB6C-E753-655E-3151-5DE237FC6F9E">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-24 23:55:25 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datahora_fechamento" id="9CD132E3-3C7D-3588-D0BC-95A5361AA203">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-25 00:00:01 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="indice_satisfacao" id="6BED224A-1A7E-11D1-31BD-20EE48E575B8">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-25 00:00:39 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<constraintName>CNS_chamado_satisfacao</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>10</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="status" id="05F04EDB-AD86-C702-0F4D-06A682BAD913">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-24 23:56:31 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<constraintName>CNS_chamado_status</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<listOfValues>
+<valueDef value="A" description=""/>
+<valueDef value="C" description=""/>
+<valueDef value="E" description=""/>
+<valueDef value="F" description=""/>
+<valueDef value="X" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="codigo_cliente" id="70037389-0D39-713A-F3CE-1FBCFF1DE361">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:34:30 UTC</createdTime>
@@ -55,18 +125,6 @@
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
 <referedAttribute>04030CE4-610F-35FB-FF7D-D52899F5A6DB</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="codigo_pedido_item" id="8C4420AF-5FCC-74F1-CAC7-7468E84E4695">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:34:37 UTC</createdTime>
-<generatorID>A53910D6-0DE3-F90F-FB5B-734CBE16B914</generatorID>
-<ownerDesignName>fiap-atividade-01</ownerDesignName>
-<engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
-</engineerTo>
-<referedAttribute>B8964EB9-315B-383C-0126-8B08471BB5FF</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -82,15 +140,31 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="codigo_tipo_chamado" id="1E12EB6D-8DC8-5DDE-7601-5AB47CFFD84B">
+<Attribute name="tipo_chamado" id="4FB1F396-DAD3-D2A1-D2F0-D44D9747B3DC">
 <createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:35:38 UTC</createdTime>
-<generatorID>989DA0E0-331F-9C91-3F51-CC3499CBE042</generatorID>
+<createdTime>2023-08-25 00:03:24 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
-<referedAttribute>6C05BAD9-B58F-2D2D-BEFC-CE84F42FC5D2</referedAttribute>
+<constraintName>CNS_chamado_tipo</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<listOfValues>
+<valueDef value="Reclamação" description=""/>
+<valueDef value="Sugestão" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_produto" id="D588590B-8018-EC1C-F062-934666D560CF">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-25 00:04:54 UTC</createdTime>
+<generatorID>8A494D8F-B637-9AE2-94A2-58FE1C6EF73B</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<referedAttribute>FB92239F-9D76-1717-3BC5-00DF2C585323</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
