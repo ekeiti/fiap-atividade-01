@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="endereco_cliente" directorySegmentName="seg_0" id="E189E325-DEDA-3FB1-CDB0-9A364C2676CE">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-24 02:50:49 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<sourcePk>B573D405-C471-9AD0-C2D3-C6541846C51D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BB1B3192-B8ED-DDB1-9449-3704C9EC5250</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F551C050-8AFE-2EF6-C501-B192E31C92D6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

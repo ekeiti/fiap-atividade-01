@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="D203642F-B243-ED72-A83D-571921FC9952" name="FKArc_1">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>5BB39AC3-B4D1-C7B3-B96E-5BE1330B51CF</table>
+<fkeys>
+<fkeyID>D64899B7-97E1-754E-9539-D54252E4B94B</fkeyID>
+<fkeyID>9EA817BB-61C9-AE3E-3648-FF96D214BC58</fkeyID>
+</fkeys>
+</FKArc>
