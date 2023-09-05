@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="video_visualizacao" directorySegmentName="seg_0" id="A45F563B-DF76-A265-717F-94681C2E27D1">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:24:09 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<sourcePk>43D437B8-DD2E-12F8-65A2-FC755BCFD3E9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CAC9D23D-BAFD-CC3A-C87F-721594291142</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B4F2A26A-1058-E76E-ACF2-55F7A6192752</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

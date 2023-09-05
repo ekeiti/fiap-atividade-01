@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7D65801-14FA-0A9B-9BD5-CAF3A2D5EF8E" name="Endereco">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>BB1B3192-B8ED-DDB1-9449-3704C9EC5250</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_endereco" id="47E223C1-138B-B70A-3B68-BD0E5FAB13E5">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>3AA027B1-9AC1-FF3B-04EC-2D438B4ED723</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="logradouro" id="FF99E672-AE7C-1FA8-76DE-588F046C767C">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>E099CA9B-8F34-C46B-36CD-0435BD1AD8DD</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cep" id="1D38C74D-D6B4-FA3D-E75D-F1BE15AAADEF">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>05ECDECF-04CF-7757-FE93-38221D8ED923</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bairro_codigo_bairro" id="A1854AAB-5E9B-C4C0-EF1E-0007CA2C0AD8">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>C91EE213-551B-5F17-D4AC-5EA1CE4C6455</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0C820EF-B180-0174-A50F-11A16242267F" referredColumn="4DDA00DF-A2F2-01EB-D3A7-2286BADB9D3C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F2A921BE-323F-7413-EF99-919B7D36D36C" name="Endereco_PK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>B573D405-C471-9AD0-C2D3-C6541846C51D</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47E223C1-138B-B70A-3B68-BD0E5FAB13E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00CAE050-083D-D0AA-3AAD-06ED7ABB793A" name="Endereco_Bairro_FK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>05437F7F-0288-396E-FD23-8046B8ACB46A</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1854AAB-5E9B-C4C0-EF1E-0007CA2C0AD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

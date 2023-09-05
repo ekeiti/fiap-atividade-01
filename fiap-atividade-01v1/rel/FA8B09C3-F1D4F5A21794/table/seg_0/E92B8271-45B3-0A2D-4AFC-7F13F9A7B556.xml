@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E92B8271-45B3-0A2D-4AFC-7F13F9A7B556" name="Estado">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>739A3197-72E3-E1C8-BBEA-BC7897C6C0F8</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_estado" id="DEC3BBAB-32B9-B5B0-E972-3B0025E255C0">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>B50BC74F-A983-DA31-C4BF-E1E326274C37</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="9BE5D552-FDA4-C73B-B4E9-75557AD4DE4D">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>9631C8A8-BAEC-941B-D2C3-606FF4E1B2F0</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="regiao" id="14003C63-32F6-F4E6-4B30-32F792CACD13">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>AA98E22B-C1DE-090E-CBE5-473AC076C234</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado_ID" id="10DEE8E1-EFD1-C6E1-C667-B38F3686E019">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD921899-8351-4C9B-25B6-365BCC05F674" name="Estado_PK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="10DEE8E1-EFD1-C6E1-C667-B38F3686E019"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

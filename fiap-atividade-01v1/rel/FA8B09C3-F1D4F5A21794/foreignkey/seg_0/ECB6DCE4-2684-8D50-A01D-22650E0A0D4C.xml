@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ECB6DCE4-2684-8D50-A01D-22650E0A0D4C" containerWithKeyObject="16E6D6E3-EA45-6255-B9A4-AC0602E4F153" localFKIndex="FE960B87-07CC-B4CE-04D2-2103A4C3B98A" name="Bairro_Cidade_FK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>F8ED72F3-3947-A81D-A599-925D6AED7820</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<referredTableLongName>Cidade</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5111BA90-97B8-0CBA-7506-B019F3F17E2F</referredTableID>
+<keyObject>E9A88D2B-77DD-2309-6541-FB75FC97F74A</keyObject>
+<referredKeyID>E9A88D2B-77DD-2309-6541-FB75FC97F74A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigo_cidade</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

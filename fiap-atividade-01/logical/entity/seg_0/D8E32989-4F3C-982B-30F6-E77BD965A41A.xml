@@ -75,7 +75,8 @@
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
 <referedAttribute>04030CE4-610F-35FB-FF7D-D52899F5A6DB</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

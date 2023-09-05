@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C961D2A-8745-F057-3563-E29948849E5C" name="Pedido_Item">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>D01A408B-AAE6-2477-ECEE-BE37F848D38E</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_pedido_item" id="C99B55A8-4815-A800-84AF-3CB4F4DCC4D7">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>B8964EB9-315B-383C-0126-8B08471BB5FF</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidade_item" id="476D55B5-A9AB-2C9E-C1BA-670E4C2A8771">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>CF2C195F-3BE1-15DC-C2C5-7976D42DB3DB</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_unitario" id="4D4429B2-8036-3942-04AF-E84F15094973">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>6A78D5A9-7745-7E35-91AD-8EB4B8F13A12</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_total_item" id="A4CF1B80-F975-01BC-8ECC-81971F9035A7">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>5A35E905-2B07-3E2F-5CC5-DC9EC080F63A</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_criacao" id="CEDC6E11-AD14-26AC-5D48-8F62D6560847">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>A96D5008-8B2D-087F-16EC-EE05BDEF4907</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_alteracao" id="7122E25A-6857-0CBD-7AF1-09AEA09EBDC8">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>CCD69F64-7B91-F155-928E-DB0B06EFE882</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Produto_codigo_produto" id="4BDAA236-5EA6-5643-5B57-E271BC07F24F">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>11D44D34-8787-CFA4-6A07-21E3D87F5C9E</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EFA8335-713B-BBB4-C4BF-22786AF092F3" referredColumn="EED4A97F-92E9-E919-5244-A8D38B62235D"/>
+</associations>
+</Column>
+<Column name="Pedido_codigo_pedido" id="00827F8E-B42F-8B97-22A5-4E4DB7C188F0">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>664D9BE4-EFC6-E033-16F0-93B9FE3E66F9</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="966CEFF1-7D8A-FEC7-5064-9AB7A3E57666" referredColumn="EC40954E-61B5-E509-21A3-C45F9E0285AF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7832FA7-FB7F-D372-ADA6-24DD4BDEBDA8" name="Pedido_Item_PK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>10475E77-17F1-D456-0077-80A1CA675E00</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C99B55A8-4815-A800-84AF-3CB4F4DCC4D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBFB6100-DAB2-8D44-2C76-3907FB25FD94" name="Pedido_Item_Pedido_FK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>854F4F49-1E26-6F52-B90E-E696A9EEFD99</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00827F8E-B42F-8B97-22A5-4E4DB7C188F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5037BB25-486A-8254-CED1-1E4C37B89EED" name="Pedido_Item_Produto_FK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>89B899EA-AD4B-B28F-DA40-90D3C507FD62</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BDAA236-5EA6-5643-5B57-E271BC07F24F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

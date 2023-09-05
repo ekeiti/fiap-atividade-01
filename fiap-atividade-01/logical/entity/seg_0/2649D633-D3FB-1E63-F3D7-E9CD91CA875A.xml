@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2649D633-D3FB-1E63-F3D7-E9CD91CA875A" name="Chamado">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2649D633-D3FB-1E63-F3D7-E9CD91CA875A" name="T_CHAMADO">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:33:49 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="codigo_chamado" id="170C9444-27E3-56CE-CF00-AAB86CD983B3">
+<Attribute name="cd_chamado" id="170C9444-27E3-56CE-CF00-AAB86CD983B3">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:33:56 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
@@ -25,7 +25,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="descricao_cliente" id="F51F46D3-C558-EF7F-FB7B-E5F73A5D4EB7">
+<Attribute name="des_cliente" id="F51F46D3-C558-EF7F-FB7B-E5F73A5D4EB7">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:33:56 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
@@ -35,7 +35,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="classificacao" id="0B2DEA08-FBCD-11AF-7D27-E1D016BBF670">
+<Attribute name="clas_chamado" id="0B2DEA08-FBCD-11AF-7D27-E1D016BBF670">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:33:56 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
@@ -46,7 +46,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="datahora_abertura" id="06F717B9-4279-7849-7847-730368073E1B">
+<Attribute name="dt_abertura" id="06F717B9-4279-7849-7847-730368073E1B">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-24 23:55:15 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
@@ -56,7 +56,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="datahora_atendimento" id="A943BB6C-E753-655E-3151-5DE237FC6F9E">
+<Attribute name="dt_atendimento" id="A943BB6C-E753-655E-3151-5DE237FC6F9E">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-24 23:55:25 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
@@ -67,7 +67,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="datahora_fechamento" id="9CD132E3-3C7D-3588-D0BC-95A5361AA203">
+<Attribute name="dt_fechamento" id="9CD132E3-3C7D-3588-D0BC-95A5361AA203">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-25 00:00:01 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
@@ -78,7 +78,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="indice_satisfacao" id="6BED224A-1A7E-11D1-31BD-20EE48E575B8">
+<Attribute name="ind_satisfacao" id="6BED224A-1A7E-11D1-31BD-20EE48E575B8">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-25 00:00:39 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
@@ -97,7 +97,7 @@
 </rangeDef>
 </listOfRanges>
 </Attribute>
-<Attribute name="status" id="05F04EDB-AD86-C702-0F4D-06A682BAD913">
+<Attribute name="st_chamado" id="05F04EDB-AD86-C702-0F4D-06A682BAD913">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-24 23:56:31 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
@@ -125,7 +125,8 @@
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
 <referedAttribute>04030CE4-610F-35FB-FF7D-D52899F5A6DB</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="codigo_funcionario" id="3F70F9BC-63CD-2146-3B72-D36B1D293484">
@@ -140,7 +141,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tipo_chamado" id="4FB1F396-DAD3-D2A1-D2F0-D44D9747B3DC">
+<Attribute name="tip_chamado" id="4FB1F396-DAD3-D2A1-D2F0-D44D9747B3DC">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-25 00:03:24 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
@@ -170,7 +171,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="14C064CA-F859-F6A7-A14B-FE0A1E5FEEA1" name="Chamado PK">
+<identifier id="14C064CA-F859-F6A7-A14B-FE0A1E5FEEA1" name="T_CHAMADO PK">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:34:01 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>

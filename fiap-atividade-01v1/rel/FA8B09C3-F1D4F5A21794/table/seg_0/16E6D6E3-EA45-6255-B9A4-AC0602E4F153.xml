@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16E6D6E3-EA45-6255-B9A4-AC0602E4F153" name="Bairro">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>B3BAC455-074F-15A5-0120-876C940FF2F0</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_bairro" id="4DDA00DF-A2F2-01EB-D3A7-2286BADB9D3C">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>61D41720-AA05-1936-D418-06D764BF6C7A</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="32295424-2D95-1A3A-DB01-D1B0F33C4FAF">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>14E68F29-0430-52CF-CED6-703E4593F524</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cidade_codigo_cidade" id="F146B571-825C-776E-A273-5D1608D933FA">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>FF7A0B68-FBDF-DAF9-A8C5-C99DC2B92759</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ECB6DCE4-2684-8D50-A01D-22650E0A0D4C" referredColumn="67914B42-D60F-3AD3-F6B0-67E7BE7FB038"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F3CB38D3-421D-0D7F-0360-40997DE09DBD" name="Bairro_PK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>FB4A3D2B-4A35-5060-CE1B-09EA46EE1AE4</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DDA00DF-A2F2-01EB-D3A7-2286BADB9D3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE960B87-07CC-B4CE-04D2-2103A4C3B98A" name="Bairro_Cidade_FK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>F8ED72F3-3947-A81D-A599-925D6AED7820</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F146B571-825C-776E-A273-5D1608D933FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

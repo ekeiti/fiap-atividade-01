@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5B5DAE5-512A-0397-6D24-4B2EE6845A13" name="Funcionario_Cargo">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>FE19EECC-B108-0DF9-68F4-F9574B71BEA0</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_cargo" id="35C3F210-CEFD-0591-CF82-38A783527B43">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>582A0139-D02C-9186-F860-EFDBD41C23F3</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="F7F0C357-0C78-702E-A02A-4410154528A4">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>19CF5508-B18A-D277-1FD0-74598CC2637B</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_criacao" id="843465CF-1B8C-A02F-94B7-4D970A727AAB">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>EF767D13-BE97-EC9B-FC1A-B639BF280464</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_alteracao" id="C5E6BDF4-FF73-4478-CDD7-3BCDCC9EAF81">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>655A16D3-99CF-A44C-FA76-FFCCAA577B0D</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="57993BE6-EEE1-3970-A90C-1FBC9941BFC9" name="Funcionario_Cargo_PK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>9343AF47-E28B-01D5-3174-FAFC6CFC3E8A</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35C3F210-CEFD-0591-CF82-38A783527B43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

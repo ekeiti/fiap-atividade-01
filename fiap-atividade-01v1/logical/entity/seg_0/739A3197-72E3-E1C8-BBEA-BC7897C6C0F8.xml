@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="739A3197-72E3-E1C8-BBEA-BC7897C6C0F8" name="Estado">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-24 02:46:24 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_estado" id="B50BC74F-A983-DA31-C4BF-E1E326274C37">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-24 02:46:38 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="9631C8A8-BAEC-941B-D2C3-606FF4E1B2F0">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-24 02:46:42 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="regiao" id="AA98E22B-C1DE-090E-CBE5-473AC076C234">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-24 02:46:55 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

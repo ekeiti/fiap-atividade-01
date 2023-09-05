@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D8E8B2C-816E-57E3-90E1-AB5E7DB550D6" name="Funcionario">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>A26548F9-CB5D-46AD-DC18-941A9E89039F</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_funcionario" id="8E2DABBD-71FE-A467-E6C0-B9FBA8159556">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>771E97A9-B7B1-350D-3742-C7F5C797404A</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="83446DEB-C9CC-9E41-B949-2BF79EFCAC54">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>7580047D-B85F-8E6F-3507-AD162C218CD7</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_nascimento" id="75B5E580-0EB8-5C82-CD98-B52791E4442C">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>CF6A8ED1-1884-6CC4-2DD8-F98579D71474</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="F83E19AD-FAE8-D72F-BA1C-F7C8CCE1975A">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>F063C539-7207-006C-7ACC-EE784E8B87B8</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_criacao" id="D92D7B87-2CB2-2551-7CB9-72594D09714B">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>482E4BBF-DB7F-941D-4D64-98EB93B5A382</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_alteracao" id="D46BD5AA-FB61-E024-AD5B-800907802446">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>CB236AB0-FBDD-B3B5-CE0D-30BE8957A618</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Funcionario_Departamento_codigo_departamento" id="2647CCB0-5811-5179-53BE-CF62EE2BC87E">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>496E2F21-23D5-12EE-CC58-6CAA3DB091B0</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93173719-2D6B-856D-1474-3089EECB141F" referredColumn="DF453670-E822-2D7D-7204-598EB393971A"/>
+</associations>
+</Column>
+<Column name="Funcionario_Cargo_codigo_cargo" id="08E88AAE-3AB4-01F4-F820-79730B58F3D6">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>F61EDCB7-52B1-491A-071D-50CB1ED52E4D</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4D7B6F9-26CB-3127-8A85-DB754A9D1108" referredColumn="35C3F210-CEFD-0591-CF82-38A783527B43"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE48347A-F420-5397-31DF-D7197F42F776" name="Funcionario_PK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>B55649A4-87B3-C1C5-11B0-D9C4CA185061</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E2DABBD-71FE-A467-E6C0-B9FBA8159556"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BFD8755-EB9E-5DEC-FC1F-8656FBC19B4B" name="Funcionario_cpf_UN">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>D1B52610-3CED-8696-631D-AEAFD667BD93</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F83E19AD-FAE8-D72F-BA1C-F7C8CCE1975A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A966926-0E90-EF00-E27E-80EAE0A073FA" name="Funcionario_Funcionario_Departamento_FK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>40EBBF10-4B25-CAF2-5058-7CEA5A327FEE</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2647CCB0-5811-5179-53BE-CF62EE2BC87E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="091D6985-CBC1-EC5C-1177-AF45E98017D7" name="Funcionario_Funcionario_Cargo_FK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>77E7FBD3-FAD3-E556-C02B-D2EF970E9F93</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08E88AAE-3AB4-01F4-F820-79730B58F3D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

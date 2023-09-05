@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="95B63CF3-0860-9E22-9795-2F9314CE43FE" containerWithKeyObject="01623727-8834-3ECD-BB7A-5A731CB65EE3" localFKIndex="BC31207C-8929-1F3C-958B-F32C37C1462F" name="T_CHAMADO_Funcionario_FK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:37:53 UTC</createdTime>
+<generatorID>61B58572-B77F-C463-6B81-E688A79281C4</generatorID>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<referredTableLongName>Funcionario</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1D8E8B2C-816E-57E3-90E1-AB5E7DB550D6</referredTableID>
+<keyObject>DE48347A-F420-5397-31DF-D7197F42F776</keyObject>
+<referredKeyID>DE48347A-F420-5397-31DF-D7197F42F776</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigo_funcionario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
