@@ -16,6 +16,16 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_cliente" id="8B21EB26-4E50-8308-87F9-31CD8F19AA1C">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:36:16 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="cpf" id="1ECC53B7-38A1-F91F-42AF-8A1022D8CD7F">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-24 02:33:08 UTC</createdTime>
@@ -51,16 +61,6 @@
 <Attribute name="data_nascimento" id="94072CF1-83A3-9DE4-BB97-786D20732FA7">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-24 02:38:03 UTC</createdTime>
-<ownerDesignName>fiap-atividade-01v1</ownerDesignName>
-<engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="cd_cliente" id="8B21EB26-4E50-8308-87F9-31CD8F19AA1C">
-<createdBy>patidemitroff</createdBy>
-<createdTime>2023-08-30 02:36:16 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01v1</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>

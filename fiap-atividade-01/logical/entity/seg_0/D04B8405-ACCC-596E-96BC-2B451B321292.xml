@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D04B8405-ACCC-596E-96BC-2B451B321292" name="Pedido">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D04B8405-ACCC-596E-96BC-2B451B321292" name="T_COM_PEDIDO">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:12:29 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
@@ -15,17 +15,19 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="codigo_pedido" id="C5C896FD-D92C-59AC-CA2E-7DF56DC72207">
+<Attribute name="cd_pedido" id="C5C896FD-D92C-59AC-CA2E-7DF56DC72207">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:12:35 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="codigo_cliente" id="72E62334-3BBB-027F-3304-8FB1CA79C378">
+<Attribute name="cd_cliente" id="72E62334-3BBB-027F-3304-8FB1CA79C378">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:20:06 UTC</createdTime>
 <generatorID>74BE72CC-AF36-032A-785D-1597EE436124</generatorID>
@@ -34,28 +36,34 @@
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
 <referedAttribute>04030CE4-610F-35FB-FF7D-D52899F5A6DB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="data_criacao" id="54253D57-F3A5-7C4C-4764-6990D89018EC">
+<Attribute name="dt_criacao_pedido" id="54253D57-F3A5-7C4C-4764-6990D89018EC">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:12:53 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="data_alteracao" id="4A82109B-0045-0810-EAE9-FA6DB8D7EDA6">
+<Attribute name="dt_alteracao_pedido" id="4A82109B-0045-0810-EAE9-FA6DB8D7EDA6">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:13:18 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

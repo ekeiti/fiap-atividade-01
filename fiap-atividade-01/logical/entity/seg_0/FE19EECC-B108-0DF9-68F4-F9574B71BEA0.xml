@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FE19EECC-B108-0DF9-68F4-F9574B71BEA0" name="Funcionario_Cargo">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FE19EECC-B108-0DF9-68F4-F9574B71BEA0" name="T_COM_FUNC_CARGO">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:32:36 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
@@ -15,51 +15,60 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="codigo_cargo" id="582A0139-D02C-9186-F860-EFDBD41C23F3">
+<Attribute name="cd_cargo" id="582A0139-D02C-9186-F860-EFDBD41C23F3">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:32:44 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nome" id="19CF5508-B18A-D277-1FD0-74598CC2637B">
+<Attribute name="nm_cargo" id="19CF5508-B18A-D277-1FD0-74598CC2637B">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:33:01 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="data_criacao" id="EF767D13-BE97-EC9B-FC1A-B639BF280464">
+<Attribute name="dt_criacao_cargo" id="EF767D13-BE97-EC9B-FC1A-B639BF280464">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:33:11 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="data_alteracao" id="655A16D3-99CF-A44C-FA76-FFCCAA577B0D">
+<Attribute name="dt_alteracao_cargo" id="655A16D3-99CF-A44C-FA76-FFCCAA577B0D">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:33:15 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="9343AF47-E28B-01D5-3174-FAFC6CFC3E8A" name="Funcionario_Cargo PK">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:32:55 UTC</createdTime>
+<identifier id="82C00C64-B0BD-61D0-FE43-239A7104397A" name="T_COM_FUNC_CARGO PK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-06 02:01:02 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>

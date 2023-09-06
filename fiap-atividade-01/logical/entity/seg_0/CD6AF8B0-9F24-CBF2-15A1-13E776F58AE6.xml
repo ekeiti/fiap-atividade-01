@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CD6AF8B0-9F24-CBF2-15A1-13E776F58AE6" name="T_Cliente_PJ">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CD6AF8B0-9F24-CBF2-15A1-13E776F58AE6" name="T_COM_CLIENTE_PJ">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-24 02:37:03 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
@@ -25,10 +25,10 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cnpj" id="D1678B0B-A66D-B31F-6788-B15075D717CC">
+<Attribute name="cnpj_cliente" id="D1678B0B-A66D-B31F-6788-B15075D717CC">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-24 02:37:23 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
@@ -40,7 +40,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="inscricao_estadual" id="4C6E2C1B-A98C-3D3A-20A7-5321584B857C">
+<Attribute name="insc_est_cliente" id="4C6E2C1B-A98C-3D3A-20A7-5321584B857C">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-24 02:37:29 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
