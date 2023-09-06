@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="009A1E7D-5AE6-6701-6125-2E6D5417F230" name="T_Cliente_PF">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="009A1E7D-5AE6-6701-6125-2E6D5417F230" name="T_COM_CLIENTE_PF">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-24 02:32:57 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
@@ -25,7 +25,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cpf" id="1ECC53B7-38A1-F91F-42AF-8A1022D8CD7F">
@@ -38,7 +38,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="sexo" id="88A030D2-13A5-CF56-FB25-9F1BC6141EAC">
 <createdBy>ericm</createdBy>
@@ -50,7 +51,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1 CHAR</dataTypeSize>
 <ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 </Attribute>
@@ -78,42 +79,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="login" id="562739CD-1D73-AC5C-A9FB-C3CDC0B091B6">
-<createdBy>patidemitroff</createdBy>
-<createdTime>2023-08-30 02:53:28 UTC</createdTime>
-<ownerDesignName>fiap-atividade-01</ownerDesignName>
-<engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="senha" id="446F234F-7300-AE9A-3B16-4F29C84EFE02">
-<createdBy>patidemitroff</createdBy>
-<createdTime>2023-08-30 02:54:05 UTC</createdTime>
-<ownerDesignName>fiap-atividade-01</ownerDesignName>
-<engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="telefone" id="E72BA7B5-8F53-D56F-AB59-1EE4DC064134">
-<createdBy>patidemitroff</createdBy>
-<createdTime>2023-08-30 02:54:07 UTC</createdTime>
-<ownerDesignName>fiap-atividade-01</ownerDesignName>
-<engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

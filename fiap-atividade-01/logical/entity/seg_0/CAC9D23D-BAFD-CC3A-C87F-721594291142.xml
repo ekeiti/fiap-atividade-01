@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CAC9D23D-BAFD-CC3A-C87F-721594291142" name="Video_Produto">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CAC9D23D-BAFD-CC3A-C87F-721594291142" name="T_COM_VIDEO_PRODUTO">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:20:31 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
@@ -15,27 +15,32 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="codigo_video" id="AC9A3B20-46BB-4A58-48DB-EFB7282A51A4">
+<Attribute name="cd_video" id="AC9A3B20-46BB-4A58-48DB-EFB7282A51A4">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:20:40 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="status" id="05EF3261-AE9B-3553-D586-7A6B2E12978B">
+<Attribute name="st_video" id="05EF3261-AE9B-3553-D586-7A6B2E12978B">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:20:47 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="codigo_produto" id="0E2B976B-1C23-D7A1-5B2E-520A61EE72A3">
+<Attribute name="cd_produto" id="0E2B976B-1C23-D7A1-5B2E-520A61EE72A3">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:21:36 UTC</createdTime>
 <generatorID>A326C372-3625-9154-73B7-37FEAA639EC8</generatorID>
@@ -44,30 +49,36 @@
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
 <referedAttribute>FB92239F-9D76-1717-3BC5-00DF2C585323</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="data_criacao" id="BF5F3FBF-AC2F-D137-7229-3DF2D9DD908E">
+<Attribute name="dt_criacao_video" id="BF5F3FBF-AC2F-D137-7229-3DF2D9DD908E">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:22:33 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="data_alteracao" id="898F1657-1EEB-86F4-5F7A-81F480675458">
+<Attribute name="dt_alteracao_video" id="898F1657-1EEB-86F4-5F7A-81F480675458">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:22:38 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="codigo_video_categoria" id="4288CF70-6479-750C-7CE2-56074DBF734E">
+<Attribute name="cd_video_categoria" id="4288CF70-6479-750C-7CE2-56074DBF734E">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:23:56 UTC</createdTime>
 <generatorID>590133BD-20C1-8A26-9654-1C9DDCE0F631</generatorID>
@@ -76,7 +87,8 @@
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
 <referedAttribute>9BFB6149-E8D3-F7BA-9735-95730FDB3F9C</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

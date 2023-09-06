@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B3BAC455-074F-15A5-0120-876C940FF2F0" name="Bairro">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B3BAC455-074F-15A5-0120-876C940FF2F0" name="T_COM_BAIRRO">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-24 02:48:22 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
@@ -15,17 +15,19 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="codigo_bairro" id="61D41720-AA05-1936-D418-06D764BF6C7A">
+<Attribute name="cd_bairro" id="61D41720-AA05-1936-D418-06D764BF6C7A">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-24 02:48:28 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nome" id="14E68F29-0430-52CF-CED6-703E4593F524">
+<Attribute name="nm_bairro" id="14E68F29-0430-52CF-CED6-703E4593F524">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-24 02:48:33 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
@@ -33,10 +35,13 @@
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="codigo_cidade" id="FF7A0B68-FBDF-DAF9-A8C5-C99DC2B92759">
+<Attribute name="cd_cidade" id="FF7A0B68-FBDF-DAF9-A8C5-C99DC2B92759">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-24 02:48:43 UTC</createdTime>
 <generatorID>F8ED72F3-3947-A81D-A599-925D6AED7820</generatorID>
@@ -45,7 +50,9 @@
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
 <referedAttribute>2579E9BC-9EFE-ED11-6670-BA0B55F4EFF2</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
