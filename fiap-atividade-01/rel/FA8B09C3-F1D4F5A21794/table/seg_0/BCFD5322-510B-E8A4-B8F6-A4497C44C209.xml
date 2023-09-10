@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BCFD5322-510B-E8A4-B8F6-A4497C44C209" name="T_COM_FUNC_CARGO">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<generatorID>FE19EECC-B108-0DF9-68F4-F9574B71BEA0</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_cargo" id="62C8A108-1C3A-1261-D260-C05C76FA1746">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<generatorID>582A0139-D02C-9186-F860-EFDBD41C23F3</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cargo" id="3DBE80BA-2980-E75A-90A4-B6FF7C30D405">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<generatorID>19CF5508-B18A-D277-1FD0-74598CC2637B</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_criacao_cargo" id="C18C45A7-273F-DB29-8BA5-4CFDF9A08CBC">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<generatorID>EF767D13-BE97-EC9B-FC1A-B639BF280464</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_alteracao_cargo" id="30B8076E-7B12-DFC0-7418-686366D7A98F">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<generatorID>655A16D3-99CF-A44C-FA76-FFCCAA577B0D</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="88454D75-5BBB-C4A8-707D-9ECA470FF4A8" name="T_COM_FUNC_CARGO_PK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<generatorID>82C00C64-B0BD-61D0-FE43-239A7104397A</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62C8A108-1C3A-1261-D260-C05C76FA1746"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

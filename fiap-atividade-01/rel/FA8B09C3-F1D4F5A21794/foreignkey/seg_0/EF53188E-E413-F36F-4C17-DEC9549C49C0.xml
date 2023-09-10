@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EF53188E-E413-F36F-4C17-DEC9549C49C0" containerWithKeyObject="982585FD-0F9C-CFC5-A8F8-EE444A55745E" localFKIndex="531E0981-9F30-24D9-EDB5-B782CBA1E5AF" name="T_COM_FUNCIONARIO_T_COM_FUNC_CARGO_FK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<generatorID>513EF77A-26C4-C7AF-1A76-12E3597911F2</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<referredTableLongName>T_COM_FUNC_CARGO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BCFD5322-510B-E8A4-B8F6-A4497C44C209</referredTableID>
+<keyObject>88454D75-5BBB-C4A8-707D-9ECA470FF4A8</keyObject>
+<referredKeyID>88454D75-5BBB-C4A8-707D-9ECA470FF4A8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_cargo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
