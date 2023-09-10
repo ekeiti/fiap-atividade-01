@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C0BA3D7-3F94-7BB9-B132-8ED09CD42A7F" name="T_COM_VIDEO_VISUALIZACAO">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<generatorID>B4F2A26A-1058-E76E-ACF2-55F7A6192752</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_visualizacao" id="CAA70E8B-619B-B73E-3A69-AFBF06E6C77B">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<generatorID>0E446375-615F-BA1F-2123-781BBE4943D6</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_inicio_visualizacao" id="4D8296DF-CDF8-E2FB-9A5A-83F61909B224">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<generatorID>1120CE5E-C381-D6D4-3B70-CDE618CD5367</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_termino_visualizacao" id="E6982AA3-01D5-8697-AD66-76A9DBB978A7">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<generatorID>1BCC3299-AAD8-0D47-B338-F625B7450612</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_COM_VIDEO_PRODUTO_cd_video" id="DEFC8972-140D-CADF-863C-B605D9FC23AB">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<generatorID>9F32BA79-819D-151A-5DAB-99ECC7725897</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7B2017E-0487-3D41-9279-68DB2536F3BE" referredColumn="CA5B6E09-52B2-DCE7-AE35-F62421677497"/>
+</associations>
+</Column>
+<Column name="T_COM_CLIENTE_SESSAO_cd_sessao" id="1C104E5D-FC23-8DAF-D492-3E0129E0782E">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<generatorID>ECF8694C-8EDC-50DF-B36A-86B0F2E57E5F</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9CC4A7E-1334-0158-5EAC-8A85D7B4A214" referredColumn="4AF6A0FD-EBCF-49A0-2D9D-A2CE1CB59B75"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5F31B792-1D25-F75C-6843-CB3456A31C86" name="T_COM_VIDEO_VISUALIZACAO_PK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<generatorID>C82EE0A5-E7F4-C8DC-0D41-30CA0A4435CB</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAA70E8B-619B-B73E-3A69-AFBF06E6C77B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2B58BD3-4B79-D42C-8ED1-C85B1E55F735" name="T_COM_VIDEO_VISUALIZACAO_T_COM_CLIENTE_SESSAO_FK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<generatorID>D71D336B-9CBB-76AE-D9D1-D693A023CA51</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C104E5D-FC23-8DAF-D492-3E0129E0782E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FEABF9D-D13E-41A5-A869-97CCAC74BDBB" name="T_COM_VIDEO_VISUALIZACAO_T_COM_VIDEO_PRODUTO_FK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<generatorID>A45F563B-DF76-A265-717F-94681C2E27D1</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DEFC8972-140D-CADF-863C-B605D9FC23AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
