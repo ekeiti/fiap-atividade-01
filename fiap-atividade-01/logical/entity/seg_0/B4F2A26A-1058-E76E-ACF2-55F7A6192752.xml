@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B4F2A26A-1058-E76E-ACF2-55F7A6192752" name="T_COM_VIDEO_VISUALIZACAO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B4F2A26A-1058-E76E-ACF2-55F7A6192752" name="T_VIDEO_VISUALIZACAO">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:22:45 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
@@ -52,37 +52,25 @@
 <logicalDatatype>LOGDT047</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_video" id="9F32BA79-819D-151A-5DAB-99ECC7725897">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:24:09 UTC</createdTime>
+<Attribute name="cd_video" id="6293D2F2-127E-C568-A562-E46ABD8F3C4A">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:17:42 UTC</createdTime>
 <generatorID>A45F563B-DF76-A265-717F-94681C2E27D1</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
 <referedAttribute>AC9A3B20-46BB-4A58-48DB-EFB7282A51A4</referedAttribute>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="cd_sessao" id="ECF8694C-8EDC-50DF-B36A-86B0F2E57E5F">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:25:44 UTC</createdTime>
-<generatorID>D71D336B-9CBB-76AE-D9D1-D693A023CA51</generatorID>
-<ownerDesignName>fiap-atividade-01</ownerDesignName>
-<engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
-</engineerTo>
-<referedAttribute>EA3008EC-21DC-887C-8A24-9EE8E4F9BDCB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="C82EE0A5-E7F4-C8DC-0D41-30CA0A4435CB" name="Video_Visualizacao PK">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:23:06 UTC</createdTime>
+<identifier id="ECACE4EA-F7E9-94C6-4C28-EC762A18DCF9" name="T_VIDEO_VISUALIZACAO PK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:17:22 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>

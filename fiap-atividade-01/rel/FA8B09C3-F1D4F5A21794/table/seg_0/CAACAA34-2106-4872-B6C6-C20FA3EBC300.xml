@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CAACAA34-2106-4872-B6C6-C20FA3EBC300" name="T_COM_BAIRRO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CAACAA34-2106-4872-B6C6-C20FA3EBC300" name="T_BAIRRO">
 <createdBy>patidemitroff</createdBy>
 <createdTime>2023-09-10 00:05:12 UTC</createdTime>
 <generatorID>B3BAC455-074F-15A5-0120-876C940FF2F0</generatorID>
@@ -32,10 +32,10 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="T_COM_CIDADE_cd_cidade" id="428916C2-5CB4-BF6D-BE96-25B5DEF604B8">
+<Column name="T_CIDADE_cd_cidade" id="4FF9A2C3-2FE9-40C0-7E14-55D0130864E0">
 <createdBy>patidemitroff</createdBy>
-<createdTime>2023-09-10 00:05:12 UTC</createdTime>
-<generatorID>FF7A0B68-FBDF-DAF9-A8C5-C99DC2B92759</generatorID>
+<createdTime>2023-09-10 01:30:06 UTC</createdTime>
+<generatorID>C434AF49-97DA-72D8-14F5-B05AEB1DA17F</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,15 +45,15 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="7EECE347-DEB0-AD04-2A00-1D015C32B0E3" referredColumn="3ECA49DE-660B-2251-C808-EF08744B5EC1"/>
+<colAssociation fkAssociation="9F8DCF64-16EA-52ED-39C3-ED93BCE6F812" referredColumn="3ECA49DE-660B-2251-C808-EF08744B5EC1"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="0A167225-D2F1-7493-42D5-F3DAC03DA6B6" name="T_COM_BAIRRO_PK">
+<ind_PK_UK id="AA5AE466-A604-C5E5-36D4-1A5DBC61A891" name="T_BAIRRO_PK">
 <createdBy>patidemitroff</createdBy>
-<createdTime>2023-09-10 00:05:12 UTC</createdTime>
-<generatorID>FB4A3D2B-4A35-5060-CE1B-09EA46EE1AE4</generatorID>
+<createdTime>2023-09-10 01:30:06 UTC</createdTime>
+<generatorID>B333B897-0DD4-B24B-5D8D-145C746A46D4</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
@@ -62,15 +62,15 @@
 <colUsage columnID="D371C061-DA9B-871D-40E5-463245CEEDE0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="EBA810E8-ABDF-DB75-DDD9-60891F23A1DC" name="T_COM_BAIRRO_T_COM_CIDADE_FK">
+<ind_PK_UK id="0A1E6A64-A428-0459-A23A-498DBA95B87F" name="T_BAIRRO_T_CIDADE_FK">
 <createdBy>patidemitroff</createdBy>
-<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<createdTime>2023-09-10 01:30:06 UTC</createdTime>
 <generatorID>F8ED72F3-3947-A81D-A599-925D6AED7820</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="428916C2-5CB4-BF6D-BE96-25B5DEF604B8"/>
+<colUsage columnID="4FF9A2C3-2FE9-40C0-7E14-55D0130864E0"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

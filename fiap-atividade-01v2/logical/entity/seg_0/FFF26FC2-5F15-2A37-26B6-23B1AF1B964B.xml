@@ -1,0 +1,227 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FFF26FC2-5F15-2A37-26B6-23B1AF1B964B" name="T_PRODUTO">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:10:10 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_produto" id="FB92239F-9D76-1717-3BC5-00DF2C585323">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:10:19 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_produto" id="7D0FC40F-6850-AB48-D428-2479F722E065">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:10:19 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="desc_produto" id="E07ACF19-DBEF-8BFD-43F4-6448FDA3356E">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:10:19 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="desc_completa_produto" id="2326061B-646A-F49B-FAF1-F144CC48D9D2">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:10:19 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_unitario" id="608D67D7-9D4A-EB58-819F-6785E0993500">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:10:20 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peso_gr" id="D7FBBBAE-B3F0-CE5E-8C53-57F3D7EACF6C">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:10:20 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="altura_cm" id="8884920D-196F-F42C-536C-19FE48179C06">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:10:20 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="largura_cm" id="85DE854E-6C82-C6D4-4386-4E7E27E6E902">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:10:20 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comprimento_cm" id="A6F5CC1A-DA45-815D-E90A-85BA15FC9973">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:10:21 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ean" id="638DF419-8D91-4678-49C1-F0B1A31A897B">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:11:51 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13 CHAR</dataTypeSize>
+<ownDataTypeParameters>13 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_criacao" id="E6698B95-5BCE-7EAE-CE5C-AC1B69EF7BAA">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:11:55 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_alteracao" id="2864D8AB-76F4-5D4A-B154-757D70F27A60">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:11:56 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_categoria_produto" id="415B8FC4-C936-07F7-4A17-197ADF6F77BC">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:25:00 UTC</createdTime>
+<generatorID>41D7E4C0-023E-436F-5C25-FD3120C0BE46</generatorID>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<referedAttribute>85F28E82-B532-3EDC-831F-7EBE77A8B8BC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D927E0FC-6389-1A4F-B510-C075363774BB" name="UNQ_produto_nome">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:21:07 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="false"/>
+</engineerTo>
+<newElementsIDs>7D0FC40F-6850-AB48-D428-2479F722E065</newElementsIDs>
+<usedAttributes>
+<attributeRef>7D0FC40F-6850-AB48-D428-2479F722E065</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="349C33C4-73AB-15AD-B91E-3A81C9D9FC2E" name="UNQ_produto_descricao">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-24 23:24:14 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="false"/>
+</engineerTo>
+<newElementsIDs>E07ACF19-DBEF-8BFD-43F4-6448FDA3356E</newElementsIDs>
+<usedAttributes>
+<attributeRef>E07ACF19-DBEF-8BFD-43F4-6448FDA3356E</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="45FD6021-E5F1-CC06-A786-8683C753721C" name="T_PRODUTO PK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:18:15 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FB92239F-9D76-1717-3BC5-00DF2C585323</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

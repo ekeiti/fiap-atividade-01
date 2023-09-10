@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4FC17335-C035-EE58-46D6-DCC851544793" name="T_COM_VIDEO_CATEGORIA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4FC17335-C035-EE58-46D6-DCC851544793" name="T_VIDEO_CATEGORIA">
 <createdBy>patidemitroff</createdBy>
 <createdTime>2023-09-10 00:05:12 UTC</createdTime>
 <generatorID>E9B5B18E-627F-B455-32E7-80A7EEF76F5B</generatorID>
@@ -55,10 +55,10 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="16B8538B-3D94-B42F-585D-1B4090EF0449" name="T_COM_VIDEO_CATEGORIA_PK">
+<ind_PK_UK id="DABD4ACA-A537-7179-9E04-03CC95F9EEA9" name="T_VIDEO_CATEGORIA_PK">
 <createdBy>patidemitroff</createdBy>
-<createdTime>2023-09-10 00:05:12 UTC</createdTime>
-<generatorID>D4FD75D2-2497-64E9-9D6D-1E88BC9A3867</generatorID>
+<createdTime>2023-09-10 01:30:06 UTC</createdTime>
+<generatorID>5AAE25E6-325B-2924-9677-67948308A9BC</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>

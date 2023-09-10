@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C6F20BF-6C4A-D803-0607-0A3FC656A61A" name="T_COM_PEDIDO_ITEM">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C6F20BF-6C4A-D803-0607-0A3FC656A61A" name="T_PEDIDO_ITEM">
 <createdBy>patidemitroff</createdBy>
 <createdTime>2023-09-10 00:05:12 UTC</createdTime>
 <generatorID>D01A408B-AAE6-2477-ECEE-BE37F848D38E</generatorID>
@@ -76,7 +76,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="T_COM_PRODUTO_cd_produto" id="9120759D-34D2-CF9C-10C8-46CBD723F944">
+<Column name="T_PRODUTO_cd_produto" id="9120759D-34D2-CF9C-10C8-46CBD723F944">
 <createdBy>patidemitroff</createdBy>
 <createdTime>2023-09-10 00:05:12 UTC</createdTime>
 <generatorID>11D44D34-8787-CFA4-6A07-21E3D87F5C9E</generatorID>
@@ -87,14 +87,27 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_PRODUTO_nm_produto" id="7A3FD7C0-E6FA-6F5F-5F87-783E1BB5576A">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:30:06 UTC</createdTime>
+<generatorID>449822AA-DE46-C1A3-CE1B-6EAAD0097B0B</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="19E917F5-B876-4666-0C7B-960FF3369425" referredColumn="1084B38A-4FFE-0646-6508-A372AF31E2DA"/>
+<colAssociation fkAssociation="B9515B39-AD70-66FF-E8FC-186F1B463772" referredColumn="0896C1A1-ACBF-0385-40FF-0DE5BAF79BAF"/>
 </associations>
 </Column>
-<Column name="T_COM_PEDIDO_cd_pedido" id="EBE03D20-A641-A611-A0E5-188EDBA06F93">
+<Column name="T_PEDIDO_cd_pedido" id="E1AD49CD-6E9F-F84A-54B0-D9E7FB2F0689">
 <createdBy>patidemitroff</createdBy>
-<createdTime>2023-09-10 00:05:12 UTC</createdTime>
-<generatorID>664D9BE4-EFC6-E033-16F0-93B9FE3E66F9</generatorID>
+<createdTime>2023-09-10 01:30:06 UTC</createdTime>
+<generatorID>EC038954-E131-B591-C8F2-73EFE0490775</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -103,15 +116,15 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="82D82CBF-8DFF-BF99-AEBB-9AAFE5579EC8" referredColumn="09577B80-EB06-2372-7724-F749655DBC5B"/>
+<colAssociation fkAssociation="2A179BDB-D180-2D73-000C-D8EFD881584B" referredColumn="09577B80-EB06-2372-7724-F749655DBC5B"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="1F265EDC-E739-F2E8-BA9A-CE79CE9635AD" name="T_COM_PEDIDO_ITEM_PK">
+<ind_PK_UK id="101F061C-CF5A-9BED-C3C0-D4869C0DB989" name="T_PEDIDO_ITEM_PK">
 <createdBy>patidemitroff</createdBy>
-<createdTime>2023-09-10 00:05:12 UTC</createdTime>
-<generatorID>10475E77-17F1-D456-0077-80A1CA675E00</generatorID>
+<createdTime>2023-09-10 01:30:06 UTC</createdTime>
+<generatorID>4005B97A-2F7A-D651-9E10-CC46346BCEDC</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
@@ -120,26 +133,26 @@
 <colUsage columnID="18A9A787-3F97-0BA6-695B-DCF658F58AA6"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2D35C8BC-BEF3-5A12-EAFE-6B9CDD69F140" name="T_COM_PEDIDO_ITEM_T_COM_PEDIDO_FK">
+<ind_PK_UK id="AEBB421A-F5AB-3095-12E3-5778875D3033" name="T_PEDIDO_ITEM_T_PEDIDO_FK">
 <createdBy>patidemitroff</createdBy>
-<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<createdTime>2023-09-10 01:30:06 UTC</createdTime>
 <generatorID>854F4F49-1E26-6F52-B90E-E696A9EEFD99</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="EBE03D20-A641-A611-A0E5-188EDBA06F93"/>
+<colUsage columnID="E1AD49CD-6E9F-F84A-54B0-D9E7FB2F0689"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="82E903AC-12DC-FB03-0D2A-9A75C45F073E" name="T_COM_PEDIDO_ITEM_T_COM_PRODUTO_FK">
+<ind_PK_UK id="CEF6B111-CBE8-7D7B-DEC3-E33440649C2E" name="T_PEDIDO_ITEM_T_PRODUTO_FK">
 <createdBy>patidemitroff</createdBy>
-<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<createdTime>2023-09-10 01:30:06 UTC</createdTime>
 <generatorID>89B899EA-AD4B-B28F-DA40-90D3C507FD62</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="9120759D-34D2-CF9C-10C8-46CBD723F944"/>
+<colUsage columnID="7A3FD7C0-E6FA-6F5F-5F87-783E1BB5576A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

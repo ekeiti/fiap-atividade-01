@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8E32989-4F3C-982B-30F6-E77BD965A41A" name="T_COM_CLIENTE_SESSAO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8E32989-4F3C-982B-30F6-E77BD965A41A" name="T_CLIENTE_SESSAO">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:24:27 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
@@ -76,26 +76,11 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_cliente" id="6672E53D-84FD-D32E-30D7-8C2200F3C992">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:25:33 UTC</createdTime>
-<generatorID>C8B5263E-9507-C9BB-344E-F53C4504226B</generatorID>
-<ownerDesignName>fiap-atividade-01</ownerDesignName>
-<engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
-</engineerTo>
-<referedAttribute>04030CE4-610F-35FB-FF7D-D52899F5A6DB</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="FE339DC7-9C73-D3A9-36A8-C57B87A9C715" name="Cliente_Sessao PK">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:25:25 UTC</createdTime>
+<identifier id="991A541F-9F7C-FB10-997D-4AC4140D01A7" name="T_CLIENTE_SESSAO PK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:16:58 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>

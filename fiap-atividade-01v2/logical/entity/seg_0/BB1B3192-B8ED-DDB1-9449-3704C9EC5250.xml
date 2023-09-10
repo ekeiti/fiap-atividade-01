@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB1B3192-B8ED-DDB1-9449-3704C9EC5250" name="T_ENDERECO">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-24 02:42:53 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_endereco" id="3AA027B1-9AC1-FF3B-04EC-2D438B4ED723">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-24 02:43:08 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_logradouro" id="E099CA9B-8F34-C46B-36CD-0435BD1AD8DD">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-24 02:43:28 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep_endereco" id="05ECDECF-04CF-7757-FE93-38221D8ED923">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-24 02:45:22 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_bairro" id="4959FA5F-908C-D651-A149-6DD9FA313E5F">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:25:00 UTC</createdTime>
+<generatorID>05437F7F-0288-396E-FD23-8046B8ACB46A</generatorID>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<referedAttribute>61D41720-AA05-1936-D418-06D764BF6C7A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8158EC07-F8F8-840D-FF6D-F2CFB0D1FC7F" name="T_ENDERECO PK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:19:06 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3AA027B1-9AC1-FF3B-04EC-2D438B4ED723</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

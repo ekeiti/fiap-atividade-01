@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51B29CEF-9558-D789-6CB9-FE3B2DD21041" name="T_COM_CHAMADO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51B29CEF-9558-D789-6CB9-FE3B2DD21041" name="T_CHAMADO">
 <createdBy>patidemitroff</createdBy>
 <createdTime>2023-09-10 00:05:12 UTC</createdTime>
 <generatorID>2649D633-D3FB-1E63-F3D7-E9CD91CA875A</generatorID>
@@ -120,7 +120,7 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="T_COM_CLIENTE_cd_cliente" id="09AA7E71-D795-E410-BEF3-E2A0C8EB4276">
+<Column name="T_CLIENTE_cd_cliente" id="09AA7E71-D795-E410-BEF3-E2A0C8EB4276">
 <createdBy>patidemitroff</createdBy>
 <createdTime>2023-09-10 00:05:12 UTC</createdTime>
 <generatorID>70037389-0D39-713A-F3CE-1FBCFF1DE361</generatorID>
@@ -129,12 +129,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="9287062F-4D8A-69E0-5294-85A43164937E" referredColumn="60006479-49AB-5EC5-94B7-AE966A0B5286"/>
-</associations>
 </Column>
 <Column name="tp_chamado" id="F781A8C9-EBD0-422C-DBBF-7A9CD2B5B7CB">
 <createdBy>patidemitroff</createdBy>
@@ -153,7 +150,7 @@
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="T_COM_PRODUTO_cd_produto" id="2B5253B4-0020-4F1C-A4AB-4DEEDA51DEA8">
+<Column name="T_PRODUTO_cd_produto" id="2B5253B4-0020-4F1C-A4AB-4DEEDA51DEA8">
 <createdBy>patidemitroff</createdBy>
 <createdTime>2023-09-10 00:05:12 UTC</createdTime>
 <generatorID>D588590B-8018-EC1C-F062-934666D560CF</generatorID>
@@ -164,26 +161,8 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="BAE6B4CF-A1C8-55B1-9E15-B895E1CFD9D8" referredColumn="1084B38A-4FFE-0646-6508-A372AF31E2DA"/>
-</associations>
 </Column>
-<Column name="T_COM_FUNCIONARIO_cd_funcionario" id="4DF2826B-8A1F-0321-3410-A6083C2BE46F">
-<createdBy>patidemitroff</createdBy>
-<createdTime>2023-09-10 00:05:12 UTC</createdTime>
-<generatorID>74D38EC7-DA3F-F1A9-40FA-505783149F8C</generatorID>
-<ownerDesignName>fiap-atividade-01</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="CBE55C4D-7A2D-87ED-0A9A-D5233AF3F791" referredColumn="B464E592-B9A6-CC6B-C38E-C0F419DDCB56"/>
-</associations>
-</Column>
-<Column name="T_COM_FUNCIONARIO_T_COM_FUNC_CARGO_cd_cargo" id="E6CFBECB-07E0-E80F-98A4-10CEA63349B5">
+<Column name="T_FUNCIONARIO_T_FUNC_CARGO_cd_cargo" id="E6CFBECB-07E0-E80F-98A4-10CEA63349B5">
 <createdBy>patidemitroff</createdBy>
 <createdTime>2023-09-10 00:05:12 UTC</createdTime>
 <generatorID>5868FEB6-ECA1-822B-1F7B-2694FC046DBE</generatorID>
@@ -194,8 +173,50 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_PRODUTO_nm_produto" id="DCECB6B9-6F72-631A-8D96-776A46E1EBAD">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:30:06 UTC</createdTime>
+<generatorID>27F4A52A-355A-6A20-11D3-BC7D404E6602</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="CBE55C4D-7A2D-87ED-0A9A-D5233AF3F791" referredColumn="4F311930-B48E-3785-2C77-23FF1C193C9A"/>
+<colAssociation fkAssociation="7F80B134-78BE-E709-534D-42CA9BDE022F" referredColumn="0896C1A1-ACBF-0385-40FF-0DE5BAF79BAF"/>
+</associations>
+</Column>
+<Column name="T_FUNCIONARIO_cd_funcionario" id="E5BC4631-5D29-A1CA-7C4C-4ED3F153F82A">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:30:06 UTC</createdTime>
+<generatorID>F0907D4E-720E-39A5-F670-7BB153AE4EEF</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BF3F74A-C76D-E2EA-BC87-F4D96F02D907" referredColumn="B464E592-B9A6-CC6B-C38E-C0F419DDCB56"/>
+</associations>
+</Column>
+<Column name="T_CLIENTE_T_CLIENTE_ID" id="985BF5D8-64D9-CBF4-FFB3-7090D5B1DEEC">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:30:06 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82CA0DD6-4D1E-E132-C084-74C7909C5AE5" referredColumn="A5B62005-A9DE-34AE-9FBA-4AB56D2B1235"/>
 </associations>
 </Column>
 </columns>
@@ -212,38 +233,37 @@
 <colUsage columnID="8C08D171-2A62-197A-0A49-B7934D503378"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C7699003-D072-ACE9-3C60-14CBBD362457" name="T_COM_CHAMADO_T_COM_CLIENTE_FK">
+<ind_PK_UK id="97B7B452-FA91-996F-C6FB-FC0DA4B72FBD" name="T_CHAMADO_T_CLIENTE_FK">
 <createdBy>patidemitroff</createdBy>
-<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<createdTime>2023-09-10 01:30:06 UTC</createdTime>
 <generatorID>1059C9FD-CA70-60A8-62A1-20F5E6E42317</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="09AA7E71-D795-E410-BEF3-E2A0C8EB4276"/>
+<colUsage columnID="985BF5D8-64D9-CBF4-FFB3-7090D5B1DEEC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FB3BC420-FD9F-44D4-AEDE-EB3681CF5D0D" name="T_COM_CHAMADO_T_COM_FUNCIONARIO_FK">
+<ind_PK_UK id="53C04C16-0F38-63F8-60A3-2D56876530DD" name="T_CHAMADO_T_FUNCIONARIO_FK">
 <createdBy>patidemitroff</createdBy>
-<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<createdTime>2023-09-10 01:30:06 UTC</createdTime>
 <generatorID>61B58572-B77F-C463-6B81-E688A79281C4</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="4DF2826B-8A1F-0321-3410-A6083C2BE46F"/>
-<colUsage columnID="E6CFBECB-07E0-E80F-98A4-10CEA63349B5"/>
+<colUsage columnID="E5BC4631-5D29-A1CA-7C4C-4ED3F153F82A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="694562C7-76B5-A74F-8F34-B44B9FD56B0B" name="T_COM_CHAMADO_T_COM_PRODUTO_FK">
+<ind_PK_UK id="A4D5D801-AA00-61FD-B95B-BAF6E4B50B36" name="T_CHAMADO_T_PRODUTO_FK">
 <createdBy>patidemitroff</createdBy>
-<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<createdTime>2023-09-10 01:30:06 UTC</createdTime>
 <generatorID>8A494D8F-B637-9AE2-94A2-58FE1C6EF73B</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="2B5253B4-0020-4F1C-A4AB-4DEEDA51DEA8"/>
+<colUsage columnID="DCECB6B9-6F72-631A-8D96-776A46E1EBAD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

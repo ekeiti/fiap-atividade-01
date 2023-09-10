@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4FC17335-C035-EE58-46D6-DCC851544793" name="T_VIDEO_CATEGORIA">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<generatorID>E9B5B18E-627F-B455-32E7-80A7EEF76F5B</generatorID>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_video_categoria" id="BB7C4272-0E30-1F67-EF4A-E8FE0B5EE646">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<generatorID>9BFB6149-E8D3-F7BA-9735-95730FDB3F9C</generatorID>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_video_categoria" id="47253384-3E22-72E6-3B27-E720666D1DC5">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<generatorID>84D809B6-262F-8D4C-84AC-7AB5CF2183A9</generatorID>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_criacao_video_categoria" id="7EC01B85-1626-9E34-FAF1-E2D00A70F764">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<generatorID>98C1C764-C24F-A399-0D4D-508398F65085</generatorID>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_alteracao_video_categoria" id="76305011-D016-6187-012D-0BC08C404FBC">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<generatorID>7585E2BB-AA67-2895-2BE2-F913CD451C4F</generatorID>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C486F7F7-B4F0-0C50-B7EE-A4769D6AC404" name="T_VIDEO_CATEGORIA_PK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:25:10 UTC</createdTime>
+<generatorID>5AAE25E6-325B-2924-9677-67948308A9BC</generatorID>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB7C4272-0E30-1F67-EF4A-E8FE0B5EE646"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16B8538B-3D94-B42F-585D-1B4090EF0449" name="T_COM_VIDEO_CATEGORIA_PK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<generatorID>D4FD75D2-2497-64E9-9D6D-1E88BC9A3867</generatorID>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB7C4272-0E30-1F67-EF4A-E8FE0B5EE646"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

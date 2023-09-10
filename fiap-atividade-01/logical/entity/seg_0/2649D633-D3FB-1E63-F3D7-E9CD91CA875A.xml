@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2649D633-D3FB-1E63-F3D7-E9CD91CA875A" name="T_COM_CHAMADO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2649D633-D3FB-1E63-F3D7-E9CD91CA875A" name="T_CHAMADO">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:33:49 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
@@ -135,21 +135,6 @@
 </listOfValues>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_cliente" id="70037389-0D39-713A-F3CE-1FBCFF1DE361">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:34:30 UTC</createdTime>
-<generatorID>1059C9FD-CA70-60A8-62A1-20F5E6E42317</generatorID>
-<ownerDesignName>fiap-atividade-01</ownerDesignName>
-<engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
-</engineerTo>
-<referedAttribute>04030CE4-610F-35FB-FF7D-D52899F5A6DB</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="tp_chamado" id="4FB1F396-DAD3-D2A1-D2F0-D44D9747B3DC">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-25 00:03:24 UTC</createdTime>
@@ -168,23 +153,24 @@
 </listOfValues>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_produto" id="D588590B-8018-EC1C-F062-934666D560CF">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-25 00:04:54 UTC</createdTime>
+<Attribute name="nm_produto" id="27F4A52A-355A-6A20-11D3-BC7D404E6602">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:18:10 UTC</createdTime>
 <generatorID>8A494D8F-B637-9AE2-94A2-58FE1C6EF73B</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
-<referedAttribute>FB92239F-9D76-1717-3BC5-00DF2C585323</referedAttribute>
+<referedAttribute>7D0FC40F-6850-AB48-D428-2479F722E065</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_funcionario" id="74D38EC7-DA3F-F1A9-40FA-505783149F8C">
+<Attribute name="cd_funcionario" id="F0907D4E-720E-39A5-F670-7BB153AE4EEF">
 <createdBy>patidemitroff</createdBy>
-<createdTime>2023-09-06 01:48:56 UTC</createdTime>
+<createdTime>2023-09-10 01:28:34 UTC</createdTime>
 <generatorID>61B58572-B77F-C463-6B81-E688A79281C4</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
@@ -196,28 +182,15 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_cargo1" id="5868FEB6-ECA1-822B-1F7B-2694FC046DBE">
-<createdBy>patidemitroff</createdBy>
-<createdTime>2023-09-06 02:01:03 UTC</createdTime>
-<generatorID>61B58572-B77F-C463-6B81-E688A79281C4</generatorID>
-<ownerDesignName>fiap-atividade-01</ownerDesignName>
-<engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
-</engineerTo>
-<referedAttribute>380B510F-D9DA-3B1A-0CD2-755D15E1D9D1</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="14C064CA-F859-F6A7-A14B-FE0A1E5FEEA1" name="T_CHAMADO PK">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:34:01 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

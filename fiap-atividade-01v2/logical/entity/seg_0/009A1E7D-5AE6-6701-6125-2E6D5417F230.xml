@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="009A1E7D-5AE6-6701-6125-2E6D5417F230" name="T_CLIENTE_PF">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-24 02:32:57 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>24BD7F3C-FF3D-7EA1-7DB7-0E2A7C747684</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_cliente" id="CE39D883-2861-7068-F1F5-E7454AA5193C">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-08-30 02:49:47 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="1ECC53B7-38A1-F91F-42AF-8A1022D8CD7F">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-24 02:33:08 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo" id="88A030D2-13A5-CF56-FB25-9F1BC6141EAC">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-24 02:33:19 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="CC396B76-2931-BD21-8305-0FD6ADAD8C22">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-24 02:33:23 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_nascimento" id="94072CF1-83A3-9DE4-BB97-786D20732FA7">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-24 02:38:03 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

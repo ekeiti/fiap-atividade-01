@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CAACAA34-2106-4872-B6C6-C20FA3EBC300" name="T_BAIRRO">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<generatorID>B3BAC455-074F-15A5-0120-876C940FF2F0</generatorID>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_bairro" id="D371C061-DA9B-871D-40E5-463245CEEDE0">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<generatorID>61D41720-AA05-1936-D418-06D764BF6C7A</generatorID>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_bairro" id="E7BA8C50-1708-DDF3-3E89-E95B1AF28389">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<generatorID>14E68F29-0430-52CF-CED6-703E4593F524</generatorID>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CIDADE_cd_cidade" id="428916C2-5CB4-BF6D-BE96-25B5DEF604B8">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<generatorID>FF7A0B68-FBDF-DAF9-A8C5-C99DC2B92759</generatorID>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7EECE347-DEB0-AD04-2A00-1D015C32B0E3" referredColumn="3ECA49DE-660B-2251-C808-EF08744B5EC1"/>
+</associations>
+</Column>
+<Column name="cd_cidade" id="597E5E94-832F-EA72-8402-2CB8E577807A">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:25:10 UTC</createdTime>
+<generatorID>AB2E020A-1AD9-F06F-3B17-6FC58213723D</generatorID>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="300B506D-BF94-1060-B4D1-F689BB488E70" name="T_BAIRRO_PK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:25:10 UTC</createdTime>
+<generatorID>B333B897-0DD4-B24B-5D8D-145C746A46D4</generatorID>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D371C061-DA9B-871D-40E5-463245CEEDE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A167225-D2F1-7493-42D5-F3DAC03DA6B6" name="T_COM_BAIRRO_PK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<generatorID>FB4A3D2B-4A35-5060-CE1B-09EA46EE1AE4</generatorID>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D371C061-DA9B-871D-40E5-463245CEEDE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EBA810E8-ABDF-DB75-DDD9-60891F23A1DC" name="T_BAIRRO_T_CIDADE_FK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<generatorID>F8ED72F3-3947-A81D-A599-925D6AED7820</generatorID>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="428916C2-5CB4-BF6D-BE96-25B5DEF604B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
