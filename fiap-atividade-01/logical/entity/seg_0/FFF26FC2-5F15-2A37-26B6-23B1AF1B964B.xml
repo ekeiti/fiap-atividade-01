@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FFF26FC2-5F15-2A37-26B6-23B1AF1B964B" name="T_COM_PRODUTO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FFF26FC2-5F15-2A37-26B6-23B1AF1B964B" name="T_PRODUTO">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:10:10 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
@@ -169,39 +169,29 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_categoria_produto" id="C9B7AEA0-B745-1798-58E3-264762336E1D">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:16:04 UTC</createdTime>
+<Attribute name="cd_categ_prod" id="E9F6DDE2-EB52-55A5-EF07-DF8FF49D96B1">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:28:34 UTC</createdTime>
 <generatorID>41D7E4C0-023E-436F-5C25-FD3120C0BE46</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
 <referedAttribute>85F28E82-B532-3EDC-831F-7EBE77A8B8BC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="3A06B1D8-F703-68CE-2CB7-3605B0F524CB" name="Produto PK">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:10:26 UTC</createdTime>
-<ownerDesignName>fiap-atividade-01</ownerDesignName>
-<engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>FB92239F-9D76-1717-3BC5-00DF2C585323</attributeRef>
-</usedAttributes>
-</identifier>
 <identifier id="D927E0FC-6389-1A4F-B510-C075363774BB" name="UNQ_produto_nome">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:21:07 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="false"/>
 </engineerTo>
 <newElementsIDs>7D0FC40F-6850-AB48-D428-2479F722E065</newElementsIDs>
 <usedAttributes>
@@ -212,12 +202,26 @@
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-24 23:24:14 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="false"/>
 </engineerTo>
 <newElementsIDs>E07ACF19-DBEF-8BFD-43F4-6448FDA3356E</newElementsIDs>
 <usedAttributes>
 <attributeRef>E07ACF19-DBEF-8BFD-43F4-6448FDA3356E</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="45FD6021-E5F1-CC06-A786-8683C753721C" name="T_PRODUTO PK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:18:15 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FB92239F-9D76-1717-3BC5-00DF2C585323</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

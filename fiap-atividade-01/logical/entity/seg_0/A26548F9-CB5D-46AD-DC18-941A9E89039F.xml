@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A26548F9-CB5D-46AD-DC18-941A9E89039F" name="T_COM_FUNCIONARIO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A26548F9-CB5D-46AD-DC18-941A9E89039F" name="T_FUNCIONARIO">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:29:31 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
@@ -91,19 +91,6 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_departamento" id="496E2F21-23D5-12EE-CC58-6CAA3DB091B0">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:32:03 UTC</createdTime>
-<generatorID>40EBBF10-4B25-CAF2-5058-7CEA5A327FEE</generatorID>
-<ownerDesignName>fiap-atividade-01</ownerDesignName>
-<engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
-</engineerTo>
-<referedAttribute>3F37531E-51CF-3B6F-8FCD-4BA9CDEC47BD</referedAttribute>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="cd_cargo" id="8DDB3E6E-E214-227E-9104-B5BFCADE59AF">
 <createdBy>patidemitroff</createdBy>
 <createdTime>2023-09-06 01:56:38 UTC</createdTime>
@@ -116,9 +103,9 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_cargo1" id="380B510F-D9DA-3B1A-0CD2-755D15E1D9D1">
+<Attribute name="cd_cargo1" id="5948E709-2A56-ADB8-18A6-380EF6BDBF26">
 <createdBy>patidemitroff</createdBy>
-<createdTime>2023-09-06 02:01:03 UTC</createdTime>
+<createdTime>2023-09-10 01:14:00 UTC</createdTime>
 <generatorID>513EF77A-26C4-C7AF-1A76-12E3597911F2</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
@@ -132,9 +119,9 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="B55649A4-87B3-C1C5-11B0-D9C4CA185061" name="Funcionario PK">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:30:30 UTC</createdTime>
+<identifier id="ABAE30A3-840D-B689-0693-B7C1291218FB" name="T_FUNCIONARIO PK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:15:07 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
@@ -142,7 +129,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>771E97A9-B7B1-350D-3742-C7F5C797404A</attributeRef>
-<attributeRef>380B510F-D9DA-3B1A-0CD2-755D15E1D9D1</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

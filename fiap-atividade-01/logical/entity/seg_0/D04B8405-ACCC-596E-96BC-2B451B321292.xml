@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D04B8405-ACCC-596E-96BC-2B451B321292" name="T_COM_PEDIDO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D04B8405-ACCC-596E-96BC-2B451B321292" name="T_PEDIDO">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:12:29 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
@@ -25,21 +25,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="cd_cliente" id="72E62334-3BBB-027F-3304-8FB1CA79C378">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:20:06 UTC</createdTime>
-<generatorID>74BE72CC-AF36-032A-785D-1597EE436124</generatorID>
-<ownerDesignName>fiap-atividade-01</ownerDesignName>
-<engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
-</engineerTo>
-<referedAttribute>04030CE4-610F-35FB-FF7D-D52899F5A6DB</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="dt_criacao_pedido" id="54253D57-F3A5-7C4C-4764-6990D89018EC">
@@ -68,9 +53,9 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="83071169-E1FA-0C35-7278-BF2F495C6AD2" name="Pedido PK">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:12:39 UTC</createdTime>
+<identifier id="4FAA6F5B-2D45-DEC3-7845-98C1C4D31C44" name="T_PEDIDO PK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:15:41 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D9AC09C9-3321-641B-362F-0441998DB1C5" name="T_COM_CLIENTE_ENDERECO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D9AC09C9-3321-641B-362F-0441998DB1C5" name="T_CLIENTE_END">
 <createdBy>patidemitroff</createdBy>
 <createdTime>2023-09-10 00:05:12 UTC</createdTime>
 <generatorID>F551C050-8AFE-2EF6-C501-B192E31C92D6</generatorID>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="T_COM_CLIENTE_cd_cliente" id="C9865C24-DAF9-BEA6-1FBA-4D00BC376CE6">
+<Column name="T_CLIENTE_cd_cliente" id="C9865C24-DAF9-BEA6-1FBA-4D00BC376CE6">
 <createdBy>patidemitroff</createdBy>
 <createdTime>2023-09-10 00:05:12 UTC</createdTime>
 <generatorID>61CE43CC-4E8C-489E-504E-00CD0AD8EDF1</generatorID>
@@ -17,14 +17,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="BD05CB99-3448-DF30-39AB-6C1E4A92BFB9" referredColumn="60006479-49AB-5EC5-94B7-AE966A0B5286"/>
-</associations>
 </Column>
-<Column name="T_COM_ENDERECO_cd_endereco" id="BA43D477-EE4C-962A-C47D-23DD856F5069">
+<Column name="T_ENDERECO_cd_endereco" id="BA43D477-EE4C-962A-C47D-23DD856F5069">
 <createdBy>patidemitroff</createdBy>
 <createdTime>2023-09-10 00:05:12 UTC</createdTime>
 <generatorID>34716138-B888-4254-8284-5A76EE30FFFF</generatorID>
@@ -35,9 +32,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="608E9608-98BB-DC6D-555B-ECC7DE0F8DE7" referredColumn="66BA1F5A-CAF6-2D6C-1112-528F17F4FDE1"/>
-</associations>
 </Column>
 <Column name="nr_endereco" id="2AC4A3C6-858A-3F4A-F0EF-CC7482075524">
 <createdBy>patidemitroff</createdBy>
@@ -98,28 +92,69 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="T_ENDERECO_cd_endereco2" id="446AA7DB-6CE4-FD09-9216-CFDCBD51A5AD">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:30:06 UTC</createdTime>
+<generatorID>7D429214-0AA8-2A59-1043-5394D017EEDD</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E1C391C-3F37-C2D4-3BC5-09A6F1FC71A8" referredColumn="66BA1F5A-CAF6-2D6C-1112-528F17F4FDE1"/>
+</associations>
+</Column>
+<Column name="T_CLIENTE_T_CLIENTE_ID" id="4902231B-32A9-4D62-10F2-C6EC131C0E0B">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:30:06 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28126B15-4F5D-93F1-D3B2-82589BF8119A" referredColumn="A5B62005-A9DE-34AE-9FBA-4AB56D2B1235"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="4C928E96-F4BA-A374-C207-F2FA9E63A37A" name="T_COM_CLIENTE_ENDERECO_T_COM_CLIENTE_FK">
+<ind_PK_UK id="99D5147F-756C-1048-3650-550478731248" name="T_CLIENTE_END_PK">
 <createdBy>patidemitroff</createdBy>
-<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<createdTime>2023-09-10 01:10:34 UTC</createdTime>
+<generatorID>AD320E2C-DA97-D17B-95B7-4F12265C50B7</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA43D477-EE4C-962A-C47D-23DD856F5069"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0558096C-D59E-2FE4-BD10-2C7DDFF801AA" name="T_CLIENTE_END_T_CLIENTE_FK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:30:06 UTC</createdTime>
 <generatorID>4CFFC4BC-CA7B-9165-6DA5-6DC739136480</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C9865C24-DAF9-BEA6-1FBA-4D00BC376CE6"/>
+<colUsage columnID="4902231B-32A9-4D62-10F2-C6EC131C0E0B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="EFA91380-66C2-2B25-13C7-351EE5214407" name="T_COM_CLIENTE_ENDERECO_T_COM_ENDERECO_FK">
+<ind_PK_UK id="39683459-BF39-1657-5D82-621959A1159C" name="T_CLIENTE_END_T_ENDERECO_FK">
 <createdBy>patidemitroff</createdBy>
-<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<createdTime>2023-09-10 01:30:06 UTC</createdTime>
 <generatorID>E189E325-DEDA-3FB1-CDB0-9A364C2676CE</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="BA43D477-EE4C-962A-C47D-23DD856F5069"/>
+<colUsage columnID="446AA7DB-6CE4-FD09-9216-CFDCBD51A5AD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

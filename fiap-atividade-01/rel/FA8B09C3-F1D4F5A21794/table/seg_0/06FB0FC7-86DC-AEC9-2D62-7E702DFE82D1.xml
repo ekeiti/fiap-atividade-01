@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06FB0FC7-86DC-AEC9-2D62-7E702DFE82D1" name="T_COM_ENDERECO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06FB0FC7-86DC-AEC9-2D62-7E702DFE82D1" name="T_ENDERECO">
 <createdBy>patidemitroff</createdBy>
 <createdTime>2023-09-10 00:05:12 UTC</createdTime>
 <generatorID>BB1B3192-B8ED-DDB1-9449-3704C9EC5250</generatorID>
@@ -44,10 +44,10 @@
 <ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="T_COM_BAIRRO_cd_bairro" id="64D6578F-2C7F-86F9-8BEA-2DD29C51CC9B">
+<Column name="T_BAIRRO_cd_bairro" id="55775252-6B42-C976-7DAB-A919065B69B4">
 <createdBy>patidemitroff</createdBy>
-<createdTime>2023-09-10 00:05:12 UTC</createdTime>
-<generatorID>C91EE213-551B-5F17-D4AC-5EA1CE4C6455</generatorID>
+<createdTime>2023-09-10 01:30:06 UTC</createdTime>
+<generatorID>DFAEE3DF-D2B0-EEA0-ADD1-72CB5A5A657F</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -56,15 +56,15 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="1181BAB8-7A9A-9D16-29F7-22DEE05C2410" referredColumn="D371C061-DA9B-871D-40E5-463245CEEDE0"/>
+<colAssociation fkAssociation="84E5F962-06BD-6108-B773-D8AA4F091388" referredColumn="D371C061-DA9B-871D-40E5-463245CEEDE0"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="1EB12038-2731-5952-F348-9EDBD43F8D7F" name="T_COM_ENDERECO_PK">
+<ind_PK_UK id="3CAFF146-79AC-1783-F1FF-B74D62575AD9" name="T_ENDERECO_PK">
 <createdBy>patidemitroff</createdBy>
-<createdTime>2023-09-10 00:05:12 UTC</createdTime>
-<generatorID>B573D405-C471-9AD0-C2D3-C6541846C51D</generatorID>
+<createdTime>2023-09-10 01:30:06 UTC</createdTime>
+<generatorID>8158EC07-F8F8-840D-FF6D-F2CFB0D1FC7F</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
@@ -73,15 +73,15 @@
 <colUsage columnID="66BA1F5A-CAF6-2D6C-1112-528F17F4FDE1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7EAFF4ED-6A06-0BBF-D1C8-018050E4E21C" name="T_COM_ENDERECO_T_COM_BAIRRO_FK">
+<ind_PK_UK id="45D2B694-9161-44CD-98A3-4A92FC357182" name="T_ENDERECO_T_BAIRRO_FK">
 <createdBy>patidemitroff</createdBy>
-<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<createdTime>2023-09-10 01:30:06 UTC</createdTime>
 <generatorID>05437F7F-0288-396E-FD23-8046B8ACB46A</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="64D6578F-2C7F-86F9-8BEA-2DD29C51CC9B"/>
+<colUsage columnID="55775252-6B42-C976-7DAB-A919065B69B4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

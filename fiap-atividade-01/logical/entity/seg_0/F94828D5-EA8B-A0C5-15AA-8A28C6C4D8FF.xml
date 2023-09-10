@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F94828D5-EA8B-A0C5-15AA-8A28C6C4D8FF" name="T_COM_FUNC_DEPARTAMENTO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F94828D5-EA8B-A0C5-15AA-8A28C6C4D8FF" name="T_FUNC_DEPARTAMENTO">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:31:11 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
@@ -82,9 +82,9 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="CBFF24B7-DA58-C6E9-AF04-50C6FE4F7948" name="Funcionario_Departamento PK">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:31:33 UTC</createdTime>
+<identifier id="4E230586-7EA4-5B47-D6BC-3EE27096B780" name="T_FUNC_DEPARTAMENTO PK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:14:22 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>

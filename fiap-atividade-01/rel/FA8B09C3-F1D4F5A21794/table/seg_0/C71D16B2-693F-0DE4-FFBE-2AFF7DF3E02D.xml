@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C71D16B2-693F-0DE4-FFBE-2AFF7DF3E02D" name="T_COM_PEDIDO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C71D16B2-693F-0DE4-FFBE-2AFF7DF3E02D" name="T_PEDIDO">
 <createdBy>patidemitroff</createdBy>
 <createdTime>2023-09-10 00:05:12 UTC</createdTime>
 <generatorID>D04B8405-ACCC-596E-96BC-2B451B321292</generatorID>
@@ -19,7 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="T_COM_CLIENTE_cd_cliente" id="D6BB6BED-5D02-0045-6C91-25C90FD55499">
+<Column name="T_CLIENTE_cd_cliente" id="D6BB6BED-5D02-0045-6C91-25C90FD55499">
 <createdBy>patidemitroff</createdBy>
 <createdTime>2023-09-10 00:05:12 UTC</createdTime>
 <generatorID>72E62334-3BBB-027F-3304-8FB1CA79C378</generatorID>
@@ -28,12 +28,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="548C2EF3-2585-1419-D5EF-45023EA2D57A" referredColumn="60006479-49AB-5EC5-94B7-AE966A0B5286"/>
-</associations>
 </Column>
 <Column name="dt_criacao_pedido" id="9503A0F5-9A13-A087-30D0-5075B7081DBB">
 <createdBy>patidemitroff</createdBy>
@@ -57,12 +54,26 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="T_CLIENTE_T_CLIENTE_ID" id="C013699E-52A8-C073-A02B-A793E5DC8099">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:30:06 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EF47338-08E8-C61B-0928-0D2EDF6AA564" referredColumn="A5B62005-A9DE-34AE-9FBA-4AB56D2B1235"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="2F1EA79E-D94E-B8A5-C8C2-517CE3BC5592" name="T_COM_PEDIDO_PK">
+<ind_PK_UK id="0F9C5C2E-8018-2435-D4FA-40E9647B8065" name="T_PEDIDO_PK">
 <createdBy>patidemitroff</createdBy>
-<createdTime>2023-09-10 00:05:12 UTC</createdTime>
-<generatorID>83071169-E1FA-0C35-7278-BF2F495C6AD2</generatorID>
+<createdTime>2023-09-10 01:30:06 UTC</createdTime>
+<generatorID>4FAA6F5B-2D45-DEC3-7845-98C1C4D31C44</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
@@ -71,15 +82,15 @@
 <colUsage columnID="09577B80-EB06-2372-7724-F749655DBC5B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0CD24A8D-C3B2-18BE-3E93-694DEB00A486" name="T_COM_PEDIDO_T_COM_CLIENTE_FK">
+<ind_PK_UK id="95944B9C-B657-AAE0-0450-A6AF78A88858" name="T_PEDIDO_T_CLIENTE_FK">
 <createdBy>patidemitroff</createdBy>
-<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<createdTime>2023-09-10 01:30:06 UTC</createdTime>
 <generatorID>74BE72CC-AF36-032A-785D-1597EE436124</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D6BB6BED-5D02-0045-6C91-25C90FD55499"/>
+<colUsage columnID="C013699E-52A8-C073-A02B-A793E5DC8099"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

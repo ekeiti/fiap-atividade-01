@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CD6AF8B0-9F24-CBF2-15A1-13E776F58AE6" name="T_COM_CLIENTE_PJ">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CD6AF8B0-9F24-CBF2-15A1-13E776F58AE6" name="T_CLIENTE_PJ">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-24 02:37:03 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
@@ -66,9 +66,9 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="1D3107E2-17B6-4673-D246-1A5AA3345AE8" name="Cliente_PJ PK">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-24 02:37:47 UTC</createdTime>
+<identifier id="5E1BEE68-4D19-96A7-3829-B872D090F6BC" name="T_CLIENTE_PJ PK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:16:16 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="departamento_funcionario" directorySegmentName="seg_0" id="40EBBF10-4B25-CAF2-5058-7CEA5A327FEE">
+<createdBy>ericm</createdBy>
+<createdTime>2023-08-23 23:32:03 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01v2</ownerDesignName>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+</engineerTo>
+<sourcePk>4E230586-7EA4-5B47-D6BC-3EE27096B780</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F94828D5-EA8B-A0C5-15AA-8A28C6C4D8FF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A26548F9-CB5D-46AD-DC18-941A9E89039F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

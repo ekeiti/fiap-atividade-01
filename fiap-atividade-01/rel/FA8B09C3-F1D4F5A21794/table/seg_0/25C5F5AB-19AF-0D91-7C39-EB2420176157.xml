@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="25C5F5AB-19AF-0D91-7C39-EB2420176157" name="T_COM_PRODUTO_CATEGORIA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="25C5F5AB-19AF-0D91-7C39-EB2420176157" name="T_PRODUTO_CATEG">
 <createdBy>patidemitroff</createdBy>
 <createdTime>2023-09-10 00:05:12 UTC</createdTime>
 <generatorID>844F28C1-D597-C506-D8BA-D8BE5EA74441</generatorID>
@@ -18,21 +18,6 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="T_COM_PRODUTO_CATEGORIA_cd_categoria_produto" id="4AB8C4AC-7F6D-C53D-A42D-19AA4B46F194">
-<createdBy>patidemitroff</createdBy>
-<createdTime>2023-09-10 00:05:12 UTC</createdTime>
-<generatorID>9A51973B-9D1D-1CC7-01A7-CEEBAE3E947C</generatorID>
-<ownerDesignName>fiap-atividade-01</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="4D5146D3-FB71-C701-04B1-71260D9BB727" referredColumn="2EA44AFA-3669-35CF-15A6-D241EE28349F"/>
-</associations>
 </Column>
 <Column name="nm_categoria" id="EC428A20-23CF-EA2C-E5E4-02DC496B9D88">
 <createdBy>patidemitroff</createdBy>
@@ -114,12 +99,27 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="T_PRODUTO_CATEGORIA_cd_categoria_produto" id="90FC2280-3673-72FF-3421-E2A99FF07F24">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:30:06 UTC</createdTime>
+<generatorID>9A51973B-9D1D-1CC7-01A7-CEEBAE3E947C</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9336A46A-A62B-385A-C529-50B2406088BA" referredColumn="2EA44AFA-3669-35CF-15A6-D241EE28349F"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="33F350B9-C5D1-8DB7-76CE-8C3A82C60275" name="T_COM_PRODUTO_CATEGORIA_PK">
+<ind_PK_UK id="25D0518E-C7B8-68FF-2E77-23A3E2327989" name="T_PRODUTO_CATEG_PK">
 <createdBy>patidemitroff</createdBy>
-<createdTime>2023-09-10 00:05:12 UTC</createdTime>
-<generatorID>5234FA16-B842-EF06-873C-E71D2AF022DF</generatorID>
+<createdTime>2023-09-10 01:30:06 UTC</createdTime>
+<generatorID>351898C0-DA04-3D3A-98D7-5CAE219B7A2F</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
@@ -128,15 +128,15 @@
 <colUsage columnID="2EA44AFA-3669-35CF-15A6-D241EE28349F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D9804B63-ACD6-7140-3D9E-95557F528FFC" name="T_COM_PRODUTO_CATEGORIA_T_COM_PRODUTO_CATEGORIA_FK">
+<ind_PK_UK id="3417CFB9-F73B-048C-CA1B-DFD737B65C77" name="T_PRODUTO_CATEGORIA_T_PRODUTO_CATEGORIA_FK">
 <createdBy>patidemitroff</createdBy>
-<createdTime>2023-09-10 00:05:12 UTC</createdTime>
+<createdTime>2023-09-10 01:30:06 UTC</createdTime>
 <generatorID>96C9A066-D1F6-918D-4D72-D16ADC768CE8</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="4AB8C4AC-7F6D-C53D-A42D-19AA4B46F194"/>
+<colUsage columnID="90FC2280-3673-72FF-3421-E2A99FF07F24"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F551C050-8AFE-2EF6-C501-B192E31C92D6" name="T_COM_CLIENTE_ENDERECO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F551C050-8AFE-2EF6-C501-B192E31C92D6" name="T_CLIENTE_END">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-24 02:50:02 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
@@ -15,30 +15,16 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cd_cliente" id="61CE43CC-4E8C-489E-504E-00CD0AD8EDF1">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-24 02:50:33 UTC</createdTime>
-<generatorID>4CFFC4BC-CA7B-9165-6DA5-6DC739136480</generatorID>
-<ownerDesignName>fiap-atividade-01</ownerDesignName>
-<engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
-</engineerTo>
-<referedAttribute>04030CE4-610F-35FB-FF7D-D52899F5A6DB</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="cd_endereco" id="34716138-B888-4254-8284-5A76EE30FFFF">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-24 02:50:49 UTC</createdTime>
+<Attribute name="cd_endereco" id="7D429214-0AA8-2A59-1043-5394D017EEDD">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:19:08 UTC</createdTime>
 <generatorID>E189E325-DEDA-3FB1-CDB0-9A364C2676CE</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
 <referedAttribute>3AA027B1-9AC1-FF3B-04EC-2D438B4ED723</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -108,4 +94,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AD320E2C-DA97-D17B-95B7-4F12265C50B7" name="T_CLIENTE_END PK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:09:47 UTC</createdTime>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7D429214-0AA8-2A59-1043-5394D017EEDD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

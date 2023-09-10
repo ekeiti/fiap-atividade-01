@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FE19EECC-B108-0DF9-68F4-F9574B71BEA0" name="T_COM_FUNC_CARGO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FE19EECC-B108-0DF9-68F4-F9574B71BEA0" name="T_FUNC_CARGO">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:32:36 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
@@ -66,9 +66,9 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="82C00C64-B0BD-61D0-FE43-239A7104397A" name="T_COM_FUNC_CARGO PK">
+<identifier id="B667A1A6-7899-8B1C-7233-AE9679ED1C8A" name="T_FUNC_CARGO PK">
 <createdBy>patidemitroff</createdBy>
-<createdTime>2023-09-06 02:01:02 UTC</createdTime>
+<createdTime>2023-09-10 01:13:59 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>

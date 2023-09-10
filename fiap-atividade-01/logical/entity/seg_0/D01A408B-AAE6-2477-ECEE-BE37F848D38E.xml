@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D01A408B-AAE6-2477-ECEE-BE37F848D38E" name="T_COM_PEDIDO_ITEM">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D01A408B-AAE6-2477-ECEE-BE37F848D38E" name="T_PEDIDO_ITEM">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:13:26 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
@@ -89,41 +89,44 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_produto" id="11D44D34-8787-CFA4-6A07-21E3D87F5C9E">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:17:17 UTC</createdTime>
+<Attribute name="nm_produto" id="449822AA-DE46-C1A3-CE1B-6EAAD0097B0B">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:18:10 UTC</createdTime>
 <generatorID>89B899EA-AD4B-B28F-DA40-90D3C507FD62</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
-<referedAttribute>FB92239F-9D76-1717-3BC5-00DF2C585323</referedAttribute>
+<referedAttribute>7D0FC40F-6850-AB48-D428-2479F722E065</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_pedido" id="664D9BE4-EFC6-E033-16F0-93B9FE3E66F9">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:26:09 UTC</createdTime>
+<Attribute name="cd_pedido" id="EC038954-E131-B591-C8F2-73EFE0490775">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:28:34 UTC</createdTime>
 <generatorID>854F4F49-1E26-6F52-B90E-E696A9EEFD99</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
 </engineerTo>
 <referedAttribute>C5C896FD-D92C-59AC-CA2E-7DF56DC72207</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="10475E77-17F1-D456-0077-80A1CA675E00" name="Pedido_Item PK">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:13:45 UTC</createdTime>
+<identifier id="4005B97A-2F7A-D651-9E10-CC46346BCEDC" name="T_PEDIDO_ITEM PK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:16:00 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

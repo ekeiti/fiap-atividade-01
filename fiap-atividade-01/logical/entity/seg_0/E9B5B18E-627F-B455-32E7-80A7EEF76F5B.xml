@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E9B5B18E-627F-B455-32E7-80A7EEF76F5B" name="T_COM_VIDEO_CATEGORIA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E9B5B18E-627F-B455-32E7-80A7EEF76F5B" name="T_VIDEO_CATEGORIA">
 <createdBy>ericm</createdBy>
 <createdTime>2023-08-23 23:21:47 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
@@ -66,9 +66,9 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="D4FD75D2-2497-64E9-9D6D-1E88BC9A3867" name="Video_Categoria PK">
-<createdBy>ericm</createdBy>
-<createdTime>2023-08-23 23:22:13 UTC</createdTime>
+<identifier id="5AAE25E6-325B-2924-9677-67948308A9BC" name="T_VIDEO_CATEGORIA PK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-10 01:18:48 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
 <item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
