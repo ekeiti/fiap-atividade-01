@@ -4,7 +4,7 @@
 <createdTime>2023-08-23 23:20:31 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+<item key="63EA48F3-B172-ADA9-67B8-E9A14042C95C" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2023-08-23 23:20:40 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+<item key="63EA48F3-B172-ADA9-67B8-E9A14042C95C" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2023-08-23 23:20:47 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+<item key="63EA48F3-B172-ADA9-67B8-E9A14042C95C" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +45,7 @@
 <createdTime>2023-08-23 23:22:33 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+<item key="63EA48F3-B172-ADA9-67B8-E9A14042C95C" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -57,27 +57,12 @@
 <createdTime>2023-08-23 23:22:38 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+<item key="63EA48F3-B172-ADA9-67B8-E9A14042C95C" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nm_produto" id="0F0F63F7-B1FD-788A-1FC1-79B27FC6DE6C">
-<createdBy>patidemitroff</createdBy>
-<createdTime>2023-09-10 01:18:10 UTC</createdTime>
-<generatorID>A326C372-3625-9154-73B7-37FEAA639EC8</generatorID>
-<ownerDesignName>fiap-atividade-01</ownerDesignName>
-<engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
-</engineerTo>
-<referedAttribute>7D0FC40F-6850-AB48-D428-2479F722E065</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>150 CHAR</dataTypeSize>
-<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cd_video_categoria" id="34D61A6C-9DFE-7F1E-234A-DBD3455629BD">
 <createdBy>patidemitroff</createdBy>
@@ -85,9 +70,23 @@
 <generatorID>590133BD-20C1-8A26-9654-1C9DDCE0F631</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+<item key="63EA48F3-B172-ADA9-67B8-E9A14042C95C" value="true"/>
 </engineerTo>
 <referedAttribute>9BFB6149-E8D3-F7BA-9735-95730FDB3F9C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_produto" id="AA08FB1E-377D-8759-D79E-DA6F8A50C57A">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-12 00:23:18 UTC</createdTime>
+<generatorID>A326C372-3625-9154-73B7-37FEAA639EC8</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="63EA48F3-B172-ADA9-67B8-E9A14042C95C" value="true"/>
+</engineerTo>
+<referedAttribute>FB92239F-9D76-1717-3BC5-00DF2C585323</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -99,9 +98,8 @@
 <createdBy>patidemitroff</createdBy>
 <createdTime>2023-09-10 01:17:41 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="false"/>
+<item key="63EA48F3-B172-ADA9-67B8-E9A14042C95C" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

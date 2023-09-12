@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FC8A2614-1917-6EA0-C7F8-053D1D055F98" containerWithKeyObject="27E08D58-E2E3-06B3-E552-2168D67184C5" localFKIndex="9F83C4FC-DC5E-316C-D67B-7809114D33BF" name="T_FUNCIONARIO_T_FUNC_DEPARTAMENTO_FK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-12 00:26:51 UTC</createdTime>
+<generatorID>40EBBF10-4B25-CAF2-5058-7CEA5A327FEE</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<referredTableLongName>T_FUNC_DEPARTAMENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A35E3BF5-4839-C27A-76B4-30092904F50E</referredTableID>
+<keyObject>BAB1790E-610F-A192-BC1D-1BC7286850AB</keyObject>
+<referredKeyID>BAB1790E-610F-A192-BC1D-1BC7286850AB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_departamento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

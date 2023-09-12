@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AED9445C-5DAA-8356-C3F7-7736CBF9E1CC" containerWithKeyObject="0481524D-1768-5A93-1356-9AACABC1FF2B" localFKIndex="7EC8B2BA-DC5E-C248-4612-9236F1EFAAA3" name="T_VIDEO_VISUALIZACAO_T_VIDEO_PRODUTO_FK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-12 00:26:51 UTC</createdTime>
+<generatorID>A45F563B-DF76-A265-717F-94681C2E27D1</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<referredTableLongName>T_VIDEO_PRODUTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>47B5ED32-6475-DBBA-98A7-757D27DDA7BB</referredTableID>
+<keyObject>48BEB7A2-3A4A-2C25-7466-9BB356024663</keyObject>
+<referredKeyID>48BEB7A2-3A4A-2C25-7466-9BB356024663</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_video</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
