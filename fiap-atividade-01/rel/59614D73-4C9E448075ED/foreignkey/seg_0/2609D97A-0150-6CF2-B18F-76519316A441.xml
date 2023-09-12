@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2609D97A-0150-6CF2-B18F-76519316A441" containerWithKeyObject="0481524D-1768-5A93-1356-9AACABC1FF2B" localFKIndex="B961E558-BBA8-28A8-0020-2B9FCC2CC053" name="T_VIDEO_VISUALIZACAO_T_CLIENTE_SESSAO_FK">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-12 00:26:51 UTC</createdTime>
+<generatorID>D71D336B-9CBB-76AE-D9D1-D693A023CA51</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<referredTableLongName>T_CLIENTE_SESSAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A33BDFCB-0B87-937F-001F-7BC98ECFE8C8</referredTableID>
+<keyObject>E8D87ED3-96CB-E871-8670-81067772B02D</keyObject>
+<referredKeyID>E8D87ED3-96CB-E871-8670-81067772B02D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_sessao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,6 @@
+Arquivo 2_regranegocio.txt
+
+
+RN 24
+
+Cada cliente pode ou não realizar um ou mais pedidos. Cada pedido pode ter um ou mais produtos. O sistema deve armazenar a data da compra, data de alteração do pedido para armazenar eventuais ocorrências, valor total do pedido, quantidade dos produtos adquiridos e valores unitários. 

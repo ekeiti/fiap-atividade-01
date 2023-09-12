@@ -4,7 +4,7 @@
 <createdTime>2023-08-23 23:13:26 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+<item key="63EA48F3-B172-ADA9-67B8-E9A14042C95C" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2023-08-23 23:13:34 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+<item key="63EA48F3-B172-ADA9-67B8-E9A14042C95C" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2023-08-23 23:13:35 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+<item key="63EA48F3-B172-ADA9-67B8-E9A14042C95C" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -44,7 +44,7 @@
 <createdTime>2023-08-24 02:27:45 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+<item key="63EA48F3-B172-ADA9-67B8-E9A14042C95C" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -57,7 +57,7 @@
 <createdTime>2023-08-23 23:13:35 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+<item key="63EA48F3-B172-ADA9-67B8-E9A14042C95C" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -70,7 +70,7 @@
 <createdTime>2023-08-23 23:13:35 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+<item key="63EA48F3-B172-ADA9-67B8-E9A14042C95C" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -82,27 +82,12 @@
 <createdTime>2023-08-23 23:13:35 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+<item key="63EA48F3-B172-ADA9-67B8-E9A14042C95C" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nm_produto" id="449822AA-DE46-C1A3-CE1B-6EAAD0097B0B">
-<createdBy>patidemitroff</createdBy>
-<createdTime>2023-09-10 01:18:10 UTC</createdTime>
-<generatorID>89B899EA-AD4B-B28F-DA40-90D3C507FD62</generatorID>
-<ownerDesignName>fiap-atividade-01</ownerDesignName>
-<engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
-</engineerTo>
-<referedAttribute>7D0FC40F-6850-AB48-D428-2479F722E065</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>150 CHAR</dataTypeSize>
-<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cd_pedido" id="EC038954-E131-B591-C8F2-73EFE0490775">
 <createdBy>patidemitroff</createdBy>
@@ -110,9 +95,23 @@
 <generatorID>854F4F49-1E26-6F52-B90E-E696A9EEFD99</generatorID>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
 <engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="true"/>
+<item key="63EA48F3-B172-ADA9-67B8-E9A14042C95C" value="true"/>
 </engineerTo>
 <referedAttribute>C5C896FD-D92C-59AC-CA2E-7DF56DC72207</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_produto" id="BCADCDF7-6DB6-2767-D84D-D39EC8D42B56">
+<createdBy>patidemitroff</createdBy>
+<createdTime>2023-09-12 00:22:53 UTC</createdTime>
+<generatorID>89B899EA-AD4B-B28F-DA40-90D3C507FD62</generatorID>
+<ownerDesignName>fiap-atividade-01</ownerDesignName>
+<engineerTo>
+<item key="63EA48F3-B172-ADA9-67B8-E9A14042C95C" value="true"/>
+</engineerTo>
+<referedAttribute>FB92239F-9D76-1717-3BC5-00DF2C585323</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -124,9 +123,8 @@
 <createdBy>patidemitroff</createdBy>
 <createdTime>2023-09-10 01:16:00 UTC</createdTime>
 <ownerDesignName>fiap-atividade-01</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="FA8B09C3-2556-F742-CE3E-F1D4F5A21794" value="false"/>
+<item key="63EA48F3-B172-ADA9-67B8-E9A14042C95C" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
